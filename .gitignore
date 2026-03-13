@@ -1,0 +1,79 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.ipynb_checkpoints/
+
+# Envs
+.venv/
+venv/
+.env
+conda/
+.mamba/
+miniconda3/
+pkgs/
+envs/
+conda-meta/
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/
+
+# Cursor project config
+.cursor/
+.cursorignore
+
+
+# Project-specific ignores
+# Exclude all dataset folders and their contents
+dataset/
+dataset/**
+
+# Exclude test dataset folder
+test_dataset/
+test_dataset/**
+
+# Segmented/cropped dataset variant
+dataset_segmented_cropped/
+dataset_segmented_cropped/**
+
+# Exclude raw zips and annotation folders
+dataset/RAW ZIPS/
+dataset/RGB_annotations_only/
+
+# Exclude common data and model files
+data/
+datasets/
+**/*.bag
+**/*.npy
+**/*.npz
+**/*.pt
+**/*.pth
+**/*.ckpt
+**/*.onnx
+
+# Exclude checkpoints, logs, and outputs
+runs/
+outputs/
+checkpoints/
+wandb/
+mlruns/
+logs/
+
+# Training outputs
+runs/
+outputs/
+checkpoints/
+wandb/
+mlruns/
+logs/
+
+# Obsolete archived files
+Obsolete/
+
+# Cache
+.cache/
+tmp/

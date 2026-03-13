@@ -1,0 +1,41 @@
+{
+  "n_samples": 3450,
+  "segmentation": {
+    "rgbd_segmenter": {
+      "mean_iou": 0.8281517634301556,
+      "mean_dice": 0.8809706103725162
+    },
+    "rgb_segmenter": {
+      "mean_iou": 0.7749114011286327,
+      "mean_dice": 0.83660207683562
+    }
+  },
+  "detection": {
+    "rgbd_segmenter": {
+      "bbox_mean_iou": 0.8538590068807077,
+      "bbox_acc_at_0_5": 0.9408695652173913
+    },
+    "rgb_segmenter": {
+      "bbox_mean_iou": 0.799653133793079,
+      "bbox_acc_at_0_5": 0.8744927536231885
+    }
+  },
+  "classification": {
+    "rgbd_segmenter_rgbm_classifier": {
+      "top1_acc": 0.1,
+      "macro_f1": 0.01818181818181818
+    },
+    "rgb_segmenter_rgbm_classifier": {
+      "top1_acc": 0.1,
+      "macro_f1": 0.01818181818181818
+    },
+    "rgbd_segmenter_mask_classifier": {
+      "top1_acc": 0.09768115942028986,
+      "macro_f1": 0.01782125859333686
+    },
+    "rgb_segmenter_mask_classifier": {
+      "top1_acc": 0.1,
+      "macro_f1": 0.018258798623974594
+    }
+  }
+}

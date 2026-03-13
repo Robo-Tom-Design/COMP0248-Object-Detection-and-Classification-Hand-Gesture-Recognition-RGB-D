@@ -1,0 +1,28 @@
+# Python dependencies for COMP0248 Coursework 1
+# Hand Gesture Detection, Segmentation & Classification
+#
+# Install with:
+#   pip install -r requirements.txt
+#
+# Tested on Python 3.10 with CUDA 12.x on the lab GPU servers.
+# If installing on a CPU-only machine, replace the torch line with:
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
+
+# Core deep learning framework
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Numerical computing -- used everywhere for array ops and metric computation
+numpy>=1.24.0
+
+# Image loading and manipulation (PIL)
+Pillow>=9.5.0
+
+# Scientific computing -- used for connected component labelling (scipy.ndimage)
+scipy>=1.10.0
+
+# Progress bars in training loops
+tqdm>=4.65.0
+
+# Plotting and confusion matrix visualisation (Agg backend, SSH-safe)
+matplotlib>=3.7.0

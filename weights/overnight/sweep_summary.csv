@@ -1,0 +1,13 @@
+phase,run,metric,elapsed_min
+Phase1_RGBD_segmenter,lr3e-04_wd1e-04,val_loss=0.3380,16.8
+Phase1_RGBD_segmenter,lr1e-03_wd1e-04,val_loss=0.3631,16.8
+Phase1_RGBD_segmenter,lr3e-03_wd1e-04,val_loss=0.4083,14.4
+Phase2_RGB_only_segmenter,lr3e-04_wd1e-04,val_loss=0.3130,17.0
+Phase2_RGB_only_segmenter,lr1e-03_wd1e-04,val_loss=0.3737,16.9
+Phase2_RGB_only_segmenter,lr3e-03_wd1e-04,val_loss=0.4670,14.5
+Phase3_RGBM_classifier,lr1e-04_wd1e-04,val_acc=0.6782,167.8
+Phase3_RGBM_classifier,lr3e-04_wd1e-04,val_acc=0.7182,168.2
+Phase3_RGBM_classifier,lr1e-03_wd5e-05,val_acc=0.7644,134.4
+Phase4_M_only_classifier,lr1e-04_wd1e-04,val_acc=0.6940,161.8
+Phase4_M_only_classifier,lr3e-04_wd1e-04,val_acc=0.7221,162.2
+Phase4_M_only_classifier,lr1e-03_wd5e-05,val_acc=0.7403,130.2

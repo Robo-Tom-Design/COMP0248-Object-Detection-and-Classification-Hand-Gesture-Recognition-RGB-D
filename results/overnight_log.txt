@@ -1,0 +1,760 @@
+
+Using device: cuda
+
+Student split — train: 28, val: 6
+  Val students: ['25058518_Wang', '25077339_Houghton', '25194692_XiNan', '25182471_Gurelli', '25040826_Guo', '25128153_Shao']
+
+======================================================================
+  PHASE: Phase1_RGBD_segmenter  (RGBD)
+======================================================================
+  SegDataset: 2299 frames, 23 students  [augment=True]
+  SegDataset: 600 frames, 6 students  [augment=False]
+
+  --- Phase1_RGBD_segmenter | lr3e-04_wd1e-04 ---
+  [lr3e-04_wd1e-04] Ep 001/35 TRAIN loss=1.6533 IoU=0.3300 Dice=0.4606 | VAL   loss=1.7715 IoU=0.4721 Dice=0.6174
+    -> Saved best (val_loss=1.7715) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase1_rgbd_seg/lr3e-04_wd1e-04/best.pt
+  [lr3e-04_wd1e-04] Ep 002/35 TRAIN loss=1.3129 IoU=0.4659 Dice=0.6012 | VAL   loss=1.1321 IoU=0.4878 Dice=0.6287
+    -> Saved best (val_loss=1.1321) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase1_rgbd_seg/lr3e-04_wd1e-04/best.pt
+  [lr3e-04_wd1e-04] Ep 003/35 TRAIN loss=0.9065 IoU=0.5530 Dice=0.6821 | VAL   loss=0.8068 IoU=0.5847 Dice=0.6995
+    -> Saved best (val_loss=0.8068) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase1_rgbd_seg/lr3e-04_wd1e-04/best.pt
+  [lr3e-04_wd1e-04] Ep 004/35 TRAIN loss=0.7533 IoU=0.5899 Dice=0.7123 | VAL   loss=0.7807 IoU=0.5787 Dice=0.6970
+    -> Saved best (val_loss=0.7807) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase1_rgbd_seg/lr3e-04_wd1e-04/best.pt
+  [lr3e-04_wd1e-04] Ep 005/35 TRAIN loss=0.6698 IoU=0.6220 Dice=0.7414 | VAL   loss=0.6253 IoU=0.6478 Dice=0.7576
+    -> Saved best (val_loss=0.6253) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase1_rgbd_seg/lr3e-04_wd1e-04/best.pt
+  [lr3e-04_wd1e-04] Ep 006/35 TRAIN loss=0.6222 IoU=0.6425 Dice=0.7587 | VAL   loss=0.6202 IoU=0.6466 Dice=0.7541
+    -> Saved best (val_loss=0.6202) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase1_rgbd_seg/lr3e-04_wd1e-04/best.pt
+  [lr3e-04_wd1e-04] Ep 007/35 TRAIN loss=0.5743 IoU=0.6669 Dice=0.7774 | VAL   loss=0.5584 IoU=0.6741 Dice=0.7836
+    -> Saved best (val_loss=0.5584) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase1_rgbd_seg/lr3e-04_wd1e-04/best.pt
+  [lr3e-04_wd1e-04] Ep 008/35 TRAIN loss=0.5598 IoU=0.6731 Dice=0.7830 | VAL   loss=0.5816 IoU=0.6654 Dice=0.7670
+  [lr3e-04_wd1e-04] Ep 009/35 TRAIN loss=0.5211 IoU=0.6937 Dice=0.7993 | VAL   loss=0.5275 IoU=0.6931 Dice=0.7916
+    -> Saved best (val_loss=0.5275) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase1_rgbd_seg/lr3e-04_wd1e-04/best.pt
+  [lr3e-04_wd1e-04] Ep 010/35 TRAIN loss=0.4866 IoU=0.7120 Dice=0.8148 | VAL   loss=0.4652 IoU=0.7238 Dice=0.8245
+    -> Saved best (val_loss=0.4652) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase1_rgbd_seg/lr3e-04_wd1e-04/best.pt
+  [lr3e-04_wd1e-04] Ep 011/35 TRAIN loss=0.4714 IoU=0.7208 Dice=0.8199 | VAL   loss=0.4972 IoU=0.7068 Dice=0.8072
+  [lr3e-04_wd1e-04] Ep 012/35 TRAIN loss=0.4584 IoU=0.7280 Dice=0.8251 | VAL   loss=0.4623 IoU=0.7261 Dice=0.8253
+    -> Saved best (val_loss=0.4623) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase1_rgbd_seg/lr3e-04_wd1e-04/best.pt
+  [lr3e-04_wd1e-04] Ep 013/35 TRAIN loss=0.4432 IoU=0.7362 Dice=0.8318 | VAL   loss=0.4389 IoU=0.7391 Dice=0.8326
+    -> Saved best (val_loss=0.4389) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase1_rgbd_seg/lr3e-04_wd1e-04/best.pt
+  [lr3e-04_wd1e-04] Ep 014/35 TRAIN loss=0.4062 IoU=0.7571 Dice=0.8476 | VAL   loss=0.4299 IoU=0.7439 Dice=0.8370
+    -> Saved best (val_loss=0.4299) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase1_rgbd_seg/lr3e-04_wd1e-04/best.pt
+  [lr3e-04_wd1e-04] Ep 015/35 TRAIN loss=0.4050 IoU=0.7576 Dice=0.8482 | VAL   loss=0.4132 IoU=0.7519 Dice=0.8467
+    -> Saved best (val_loss=0.4132) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase1_rgbd_seg/lr3e-04_wd1e-04/best.pt
+  [lr3e-04_wd1e-04] Ep 016/35 TRAIN loss=0.3888 IoU=0.7671 Dice=0.8549 | VAL   loss=0.4077 IoU=0.7547 Dice=0.8489
+    -> Saved best (val_loss=0.4077) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase1_rgbd_seg/lr3e-04_wd1e-04/best.pt
+  [lr3e-04_wd1e-04] Ep 017/35 TRAIN loss=0.3760 IoU=0.7735 Dice=0.8613 | VAL   loss=0.4293 IoU=0.7471 Dice=0.8348
+  [lr3e-04_wd1e-04] Ep 018/35 TRAIN loss=0.3673 IoU=0.7786 Dice=0.8648 | VAL   loss=0.3982 IoU=0.7628 Dice=0.8503
+    -> Saved best (val_loss=0.3982) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase1_rgbd_seg/lr3e-04_wd1e-04/best.pt
+  [lr3e-04_wd1e-04] Ep 019/35 TRAIN loss=0.3542 IoU=0.7865 Dice=0.8701 | VAL   loss=0.4212 IoU=0.7518 Dice=0.8370
+  [lr3e-04_wd1e-04] Ep 020/35 TRAIN loss=0.3523 IoU=0.7879 Dice=0.8704 | VAL   loss=0.4531 IoU=0.7364 Dice=0.8202
+  [lr3e-04_wd1e-04] Ep 021/35 TRAIN loss=0.3275 IoU=0.8019 Dice=0.8813 | VAL   loss=0.3818 IoU=0.7716 Dice=0.8583
+    -> Saved best (val_loss=0.3818) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase1_rgbd_seg/lr3e-04_wd1e-04/best.pt
+  [lr3e-04_wd1e-04] Ep 022/35 TRAIN loss=0.3158 IoU=0.8091 Dice=0.8861 | VAL   loss=0.3912 IoU=0.7664 Dice=0.8524
+  [lr3e-04_wd1e-04] Ep 023/35 TRAIN loss=0.3063 IoU=0.8148 Dice=0.8900 | VAL   loss=0.3735 IoU=0.7776 Dice=0.8599
+    -> Saved best (val_loss=0.3735) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase1_rgbd_seg/lr3e-04_wd1e-04/best.pt
+  [lr3e-04_wd1e-04] Ep 024/35 TRAIN loss=0.2978 IoU=0.8199 Dice=0.8935 | VAL   loss=0.3887 IoU=0.7693 Dice=0.8528
+  [lr3e-04_wd1e-04] Ep 025/35 TRAIN loss=0.2888 IoU=0.8251 Dice=0.8975 | VAL   loss=0.3592 IoU=0.7855 Dice=0.8676
+    -> Saved best (val_loss=0.3592) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase1_rgbd_seg/lr3e-04_wd1e-04/best.pt
+  [lr3e-04_wd1e-04] Ep 026/35 TRAIN loss=0.2829 IoU=0.8287 Dice=0.9000 | VAL   loss=0.3678 IoU=0.7803 Dice=0.8633
+  [lr3e-04_wd1e-04] Ep 027/35 TRAIN loss=0.2756 IoU=0.8329 Dice=0.9030 | VAL   loss=0.3730 IoU=0.7794 Dice=0.8595
+  [lr3e-04_wd1e-04] Ep 028/35 TRAIN loss=0.2730 IoU=0.8347 Dice=0.9042 | VAL   loss=0.3480 IoU=0.7905 Dice=0.8737
+    -> Saved best (val_loss=0.3480) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase1_rgbd_seg/lr3e-04_wd1e-04/best.pt
+  [lr3e-04_wd1e-04] Ep 029/35 TRAIN loss=0.2619 IoU=0.8416 Dice=0.9083 | VAL   loss=0.3480 IoU=0.7922 Dice=0.8722
+    -> Saved best (val_loss=0.3480) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase1_rgbd_seg/lr3e-04_wd1e-04/best.pt
+  [lr3e-04_wd1e-04] Ep 030/35 TRAIN loss=0.2583 IoU=0.8434 Dice=0.9103 | VAL   loss=0.3534 IoU=0.7890 Dice=0.8693
+  [lr3e-04_wd1e-04] Ep 031/35 TRAIN loss=0.2513 IoU=0.8478 Dice=0.9128 | VAL   loss=0.3380 IoU=0.7986 Dice=0.8748
+    -> Saved best (val_loss=0.3380) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase1_rgbd_seg/lr3e-04_wd1e-04/best.pt
+  [lr3e-04_wd1e-04] Ep 032/35 TRAIN loss=0.2496 IoU=0.8488 Dice=0.9135 | VAL   loss=0.3460 IoU=0.7942 Dice=0.8718
+  [lr3e-04_wd1e-04] Ep 033/35 TRAIN loss=0.2498 IoU=0.8491 Dice=0.9131 | VAL   loss=0.3487 IoU=0.7930 Dice=0.8704
+  [lr3e-04_wd1e-04] Ep 034/35 TRAIN loss=0.2432 IoU=0.8525 Dice=0.9163 | VAL   loss=0.3435 IoU=0.7954 Dice=0.8733
+  [lr3e-04_wd1e-04] Ep 035/35 TRAIN loss=0.2449 IoU=0.8517 Dice=0.9157 | VAL   loss=0.3409 IoU=0.7975 Dice=0.8739
+
+  --- Phase1_RGBD_segmenter | lr1e-03_wd1e-04 ---
+  [lr1e-03_wd1e-04] Ep 001/35 TRAIN loss=1.3277 IoU=0.3813 Dice=0.5106 | VAL   loss=1.0017 IoU=0.4648 Dice=0.5872
+    -> Saved best (val_loss=1.0017) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase1_rgbd_seg/lr1e-03_wd1e-04/best.pt
+  [lr1e-03_wd1e-04] Ep 002/35 TRAIN loss=0.8764 IoU=0.5072 Dice=0.6393 | VAL   loss=1.0160 IoU=0.4351 Dice=0.5590
+  [lr1e-03_wd1e-04] Ep 003/35 TRAIN loss=0.7958 IoU=0.5441 Dice=0.6724 | VAL   loss=0.7719 IoU=0.5602 Dice=0.6777
+    -> Saved best (val_loss=0.7719) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase1_rgbd_seg/lr1e-03_wd1e-04/best.pt
+  [lr1e-03_wd1e-04] Ep 004/35 TRAIN loss=0.7328 IoU=0.5756 Dice=0.7000 | VAL   loss=0.7424 IoU=0.5715 Dice=0.6940
+    -> Saved best (val_loss=0.7424) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase1_rgbd_seg/lr1e-03_wd1e-04/best.pt
+  [lr1e-03_wd1e-04] Ep 005/35 TRAIN loss=0.6890 IoU=0.5983 Dice=0.7209 | VAL   loss=0.7605 IoU=0.5706 Dice=0.6753
+  [lr1e-03_wd1e-04] Ep 006/35 TRAIN loss=0.6677 IoU=0.6102 Dice=0.7291 | VAL   loss=0.8257 IoU=0.5220 Dice=0.6574
+  [lr1e-03_wd1e-04] Ep 007/35 TRAIN loss=0.6357 IoU=0.6275 Dice=0.7440 | VAL   loss=0.6394 IoU=0.6282 Dice=0.7395
+    -> Saved best (val_loss=0.6394) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase1_rgbd_seg/lr1e-03_wd1e-04/best.pt
+  [lr1e-03_wd1e-04] Ep 008/35 TRAIN loss=0.6230 IoU=0.6352 Dice=0.7485 | VAL   loss=0.6474 IoU=0.6257 Dice=0.7325
+  [lr1e-03_wd1e-04] Ep 009/35 TRAIN loss=0.5957 IoU=0.6495 Dice=0.7615 | VAL   loss=0.5605 IoU=0.6677 Dice=0.7801
+    -> Saved best (val_loss=0.5605) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase1_rgbd_seg/lr1e-03_wd1e-04/best.pt
+  [lr1e-03_wd1e-04] Ep 010/35 TRAIN loss=0.5631 IoU=0.6668 Dice=0.7771 | VAL   loss=0.5746 IoU=0.6631 Dice=0.7701
+  [lr1e-03_wd1e-04] Ep 011/35 TRAIN loss=0.5542 IoU=0.6725 Dice=0.7805 | VAL   loss=0.5907 IoU=0.6543 Dice=0.7624
+  [lr1e-03_wd1e-04] Ep 012/35 TRAIN loss=0.5319 IoU=0.6849 Dice=0.7902 | VAL   loss=0.5458 IoU=0.6764 Dice=0.7849
+    -> Saved best (val_loss=0.5458) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase1_rgbd_seg/lr1e-03_wd1e-04/best.pt
+  [lr1e-03_wd1e-04] Ep 013/35 TRAIN loss=0.5149 IoU=0.6934 Dice=0.7987 | VAL   loss=0.6117 IoU=0.6456 Dice=0.7487
+  [lr1e-03_wd1e-04] Ep 014/35 TRAIN loss=0.4931 IoU=0.7057 Dice=0.8090 | VAL   loss=0.5055 IoU=0.7020 Dice=0.7999
+    -> Saved best (val_loss=0.5055) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase1_rgbd_seg/lr1e-03_wd1e-04/best.pt
+  [lr1e-03_wd1e-04] Ep 015/35 TRAIN loss=0.4790 IoU=0.7137 Dice=0.8146 | VAL   loss=0.4457 IoU=0.7318 Dice=0.8304
+    -> Saved best (val_loss=0.4457) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase1_rgbd_seg/lr1e-03_wd1e-04/best.pt
+  [lr1e-03_wd1e-04] Ep 016/35 TRAIN loss=0.4626 IoU=0.7228 Dice=0.8220 | VAL   loss=0.5148 IoU=0.6918 Dice=0.8022
+  [lr1e-03_wd1e-04] Ep 017/35 TRAIN loss=0.4441 IoU=0.7328 Dice=0.8307 | VAL   loss=0.4603 IoU=0.7283 Dice=0.8188
+  [lr1e-03_wd1e-04] Ep 018/35 TRAIN loss=0.4229 IoU=0.7455 Dice=0.8395 | VAL   loss=0.4418 IoU=0.7329 Dice=0.8341
+    -> Saved best (val_loss=0.4418) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase1_rgbd_seg/lr1e-03_wd1e-04/best.pt
+  [lr1e-03_wd1e-04] Ep 019/35 TRAIN loss=0.4190 IoU=0.7474 Dice=0.8414 | VAL   loss=0.4508 IoU=0.7291 Dice=0.8283
+  [lr1e-03_wd1e-04] Ep 020/35 TRAIN loss=0.4081 IoU=0.7540 Dice=0.8460 | VAL   loss=0.4538 IoU=0.7323 Dice=0.8222
+  [lr1e-03_wd1e-04] Ep 021/35 TRAIN loss=0.3886 IoU=0.7651 Dice=0.8545 | VAL   loss=0.4094 IoU=0.7537 Dice=0.8459
+    -> Saved best (val_loss=0.4094) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase1_rgbd_seg/lr1e-03_wd1e-04/best.pt
+  [lr1e-03_wd1e-04] Ep 022/35 TRAIN loss=0.3754 IoU=0.7727 Dice=0.8607 | VAL   loss=0.4410 IoU=0.7378 Dice=0.8295
+  [lr1e-03_wd1e-04] Ep 023/35 TRAIN loss=0.3747 IoU=0.7735 Dice=0.8602 | VAL   loss=0.4332 IoU=0.7395 Dice=0.8361
+  [lr1e-03_wd1e-04] Ep 024/35 TRAIN loss=0.3538 IoU=0.7853 Dice=0.8696 | VAL   loss=0.3947 IoU=0.7616 Dice=0.8526
+    -> Saved best (val_loss=0.3947) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase1_rgbd_seg/lr1e-03_wd1e-04/best.pt
+  [lr1e-03_wd1e-04] Ep 025/35 TRAIN loss=0.3488 IoU=0.7882 Dice=0.8722 | VAL   loss=0.3897 IoU=0.7640 Dice=0.8556
+    -> Saved best (val_loss=0.3897) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase1_rgbd_seg/lr1e-03_wd1e-04/best.pt
+  [lr1e-03_wd1e-04] Ep 026/35 TRAIN loss=0.3383 IoU=0.7944 Dice=0.8760 | VAL   loss=0.3945 IoU=0.7624 Dice=0.8518
+  [lr1e-03_wd1e-04] Ep 027/35 TRAIN loss=0.3358 IoU=0.7960 Dice=0.8771 | VAL   loss=0.3878 IoU=0.7658 Dice=0.8558
+    -> Saved best (val_loss=0.3878) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase1_rgbd_seg/lr1e-03_wd1e-04/best.pt
+  [lr1e-03_wd1e-04] Ep 028/35 TRAIN loss=0.3227 IoU=0.8037 Dice=0.8826 | VAL   loss=0.3941 IoU=0.7631 Dice=0.8521
+  [lr1e-03_wd1e-04] Ep 029/35 TRAIN loss=0.3094 IoU=0.8113 Dice=0.8885 | VAL   loss=0.3631 IoU=0.7800 Dice=0.8669
+    -> Saved best (val_loss=0.3631) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase1_rgbd_seg/lr1e-03_wd1e-04/best.pt
+  [lr1e-03_wd1e-04] Ep 030/35 TRAIN loss=0.3098 IoU=0.8110 Dice=0.8884 | VAL   loss=0.3770 IoU=0.7725 Dice=0.8599
+  [lr1e-03_wd1e-04] Ep 031/35 TRAIN loss=0.3015 IoU=0.8162 Dice=0.8922 | VAL   loss=0.3953 IoU=0.7619 Dice=0.8526
+  [lr1e-03_wd1e-04] Ep 032/35 TRAIN loss=0.3012 IoU=0.8165 Dice=0.8919 | VAL   loss=0.3671 IoU=0.7787 Dice=0.8641
+  [lr1e-03_wd1e-04] Ep 033/35 TRAIN loss=0.2905 IoU=0.8224 Dice=0.8973 | VAL   loss=0.3746 IoU=0.7741 Dice=0.8609
+  [lr1e-03_wd1e-04] Ep 034/35 TRAIN loss=0.2883 IoU=0.8239 Dice=0.8975 | VAL   loss=0.3701 IoU=0.7771 Dice=0.8625
+  [lr1e-03_wd1e-04] Ep 035/35 TRAIN loss=0.2858 IoU=0.8258 Dice=0.8982 | VAL   loss=0.3803 IoU=0.7712 Dice=0.8583
+
+  --- Phase1_RGBD_segmenter | lr3e-03_wd1e-04 ---
+  [lr3e-03_wd1e-04] Ep 001/30 TRAIN loss=1.2482 IoU=0.3393 Dice=0.4548 | VAL   loss=0.9781 IoU=0.4487 Dice=0.5831
+    -> Saved best (val_loss=0.9781) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase1_rgbd_seg/lr3e-03_wd1e-04/best.pt
+  [lr3e-03_wd1e-04] Ep 002/30 TRAIN loss=0.9131 IoU=0.4790 Dice=0.6126 | VAL   loss=1.0462 IoU=0.4143 Dice=0.5427
+  [lr3e-03_wd1e-04] Ep 003/30 TRAIN loss=0.8224 IoU=0.5259 Dice=0.6565 | VAL   loss=0.8200 IoU=0.5324 Dice=0.6540
+    -> Saved best (val_loss=0.8200) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase1_rgbd_seg/lr3e-03_wd1e-04/best.pt
+  [lr3e-03_wd1e-04] Ep 004/30 TRAIN loss=0.7823 IoU=0.5480 Dice=0.6743 | VAL   loss=0.7212 IoU=0.5779 Dice=0.7066
+    -> Saved best (val_loss=0.7212) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase1_rgbd_seg/lr3e-03_wd1e-04/best.pt
+  [lr3e-03_wd1e-04] Ep 005/30 TRAIN loss=0.7499 IoU=0.5660 Dice=0.6885 | VAL   loss=0.6887 IoU=0.5997 Dice=0.7172
+    -> Saved best (val_loss=0.6887) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase1_rgbd_seg/lr3e-03_wd1e-04/best.pt
+  [lr3e-03_wd1e-04] Ep 006/30 TRAIN loss=0.7250 IoU=0.5784 Dice=0.7010 | VAL   loss=0.7436 IoU=0.5743 Dice=0.6872
+  [lr3e-03_wd1e-04] Ep 007/30 TRAIN loss=0.6790 IoU=0.6028 Dice=0.7228 | VAL   loss=0.8057 IoU=0.5452 Dice=0.6535
+  [lr3e-03_wd1e-04] Ep 008/30 TRAIN loss=0.6694 IoU=0.6084 Dice=0.7269 | VAL   loss=0.7151 IoU=0.5903 Dice=0.6999
+  [lr3e-03_wd1e-04] Ep 009/30 TRAIN loss=0.6393 IoU=0.6242 Dice=0.7415 | VAL   loss=0.6368 IoU=0.6278 Dice=0.7400
+    -> Saved best (val_loss=0.6368) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase1_rgbd_seg/lr3e-03_wd1e-04/best.pt
+  [lr3e-03_wd1e-04] Ep 010/30 TRAIN loss=0.6101 IoU=0.6401 Dice=0.7549 | VAL   loss=0.5767 IoU=0.6586 Dice=0.7705
+    -> Saved best (val_loss=0.5767) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase1_rgbd_seg/lr3e-03_wd1e-04/best.pt
+  [lr3e-03_wd1e-04] Ep 011/30 TRAIN loss=0.5764 IoU=0.6594 Dice=0.7698 | VAL   loss=0.8032 IoU=0.5453 Dice=0.6553
+  [lr3e-03_wd1e-04] Ep 012/30 TRAIN loss=0.5734 IoU=0.6606 Dice=0.7712 | VAL   loss=0.5203 IoU=0.6863 Dice=0.7999
+    -> Saved best (val_loss=0.5203) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase1_rgbd_seg/lr3e-03_wd1e-04/best.pt
+  [lr3e-03_wd1e-04] Ep 013/30 TRAIN loss=0.5525 IoU=0.6722 Dice=0.7809 | VAL   loss=0.5888 IoU=0.6571 Dice=0.7593
+  [lr3e-03_wd1e-04] Ep 014/30 TRAIN loss=0.5359 IoU=0.6819 Dice=0.7881 | VAL   loss=0.5309 IoU=0.6842 Dice=0.7907
+  [lr3e-03_wd1e-04] Ep 015/30 TRAIN loss=0.5143 IoU=0.6934 Dice=0.7984 | VAL   loss=0.5359 IoU=0.6836 Dice=0.7858
+  [lr3e-03_wd1e-04] Ep 016/30 TRAIN loss=0.5181 IoU=0.6909 Dice=0.7970 | VAL   loss=0.4860 IoU=0.7066 Dice=0.8139
+    -> Saved best (val_loss=0.4860) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase1_rgbd_seg/lr3e-03_wd1e-04/best.pt
+  [lr3e-03_wd1e-04] Ep 017/30 TRAIN loss=0.5023 IoU=0.7009 Dice=0.8031 | VAL   loss=0.6269 IoU=0.6327 Dice=0.7458
+  [lr3e-03_wd1e-04] Ep 018/30 TRAIN loss=0.4700 IoU=0.7181 Dice=0.8185 | VAL   loss=0.4403 IoU=0.7319 Dice=0.8354
+    -> Saved best (val_loss=0.4403) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase1_rgbd_seg/lr3e-03_wd1e-04/best.pt
+  [lr3e-03_wd1e-04] Ep 019/30 TRAIN loss=0.4653 IoU=0.7213 Dice=0.8209 | VAL   loss=0.4804 IoU=0.7142 Dice=0.8123
+  [lr3e-03_wd1e-04] Ep 020/30 TRAIN loss=0.4433 IoU=0.7330 Dice=0.8312 | VAL   loss=0.5363 IoU=0.6860 Dice=0.7844
+  [lr3e-03_wd1e-04] Ep 021/30 TRAIN loss=0.4321 IoU=0.7395 Dice=0.8356 | VAL   loss=0.4610 IoU=0.7237 Dice=0.8221
+  [lr3e-03_wd1e-04] Ep 022/30 TRAIN loss=0.4214 IoU=0.7457 Dice=0.8402 | VAL   loss=0.4641 IoU=0.7234 Dice=0.8197
+  [lr3e-03_wd1e-04] Ep 023/30 TRAIN loss=0.4035 IoU=0.7560 Dice=0.8480 | VAL   loss=0.4509 IoU=0.7308 Dice=0.8255
+  [lr3e-03_wd1e-04] Ep 024/30 TRAIN loss=0.3944 IoU=0.7611 Dice=0.8522 | VAL   loss=0.4164 IoU=0.7502 Dice=0.8417
+    -> Saved best (val_loss=0.4164) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase1_rgbd_seg/lr3e-03_wd1e-04/best.pt
+  [lr3e-03_wd1e-04] Ep 025/30 TRAIN loss=0.3873 IoU=0.7653 Dice=0.8553 | VAL   loss=0.4216 IoU=0.7466 Dice=0.8391
+  [lr3e-03_wd1e-04] Ep 026/30 TRAIN loss=0.3843 IoU=0.7670 Dice=0.8569 | VAL   loss=0.4267 IoU=0.7451 Dice=0.8361
+  [lr3e-03_wd1e-04] Ep 027/30 TRAIN loss=0.3694 IoU=0.7752 Dice=0.8635 | VAL   loss=0.4285 IoU=0.7447 Dice=0.8348
+  [lr3e-03_wd1e-04] Ep 028/30 TRAIN loss=0.3571 IoU=0.7826 Dice=0.8684 | VAL   loss=0.4138 IoU=0.7528 Dice=0.8418
+    -> Saved best (val_loss=0.4138) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase1_rgbd_seg/lr3e-03_wd1e-04/best.pt
+  [lr3e-03_wd1e-04] Ep 029/30 TRAIN loss=0.3693 IoU=0.7759 Dice=0.8629 | VAL   loss=0.4176 IoU=0.7509 Dice=0.8399
+  [lr3e-03_wd1e-04] Ep 030/30 TRAIN loss=0.3605 IoU=0.7807 Dice=0.8671 | VAL   loss=0.4083 IoU=0.7554 Dice=0.8449
+    -> Saved best (val_loss=0.4083) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase1_rgbd_seg/lr3e-03_wd1e-04/best.pt
+
+  Phase1_RGBD_segmenter sweep done. Best val_loss=0.3380  ckpt=/cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase1_rgbd_seg/lr3e-04_wd1e-04/best.pt
+
+Best RGBD segmenter saved to /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/best_rgbd_seg.pt
+
+======================================================================
+  PHASE: Phase2_RGB_only_segmenter  (RGB-only)
+======================================================================
+  SegDataset: 2299 frames, 23 students  [augment=True]
+  SegDataset: 600 frames, 6 students  [augment=False]
+
+  --- Phase2_RGB_only_segmenter | lr3e-04_wd1e-04 ---
+  [lr3e-04_wd1e-04] Ep 001/35 TRAIN loss=1.6101 IoU=0.3752 Dice=0.5122 | VAL   loss=1.5015 IoU=0.4015 Dice=0.5546
+    -> Saved best (val_loss=1.5015) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase2_rgb_seg/lr3e-04_wd1e-04/best.pt
+  [lr3e-04_wd1e-04] Ep 002/35 TRAIN loss=1.1585 IoU=0.5119 Dice=0.6440 | VAL   loss=0.9621 IoU=0.5322 Dice=0.6769
+    -> Saved best (val_loss=0.9621) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase2_rgb_seg/lr3e-04_wd1e-04/best.pt
+  [lr3e-04_wd1e-04] Ep 003/35 TRAIN loss=0.8257 IoU=0.5811 Dice=0.7062 | VAL   loss=0.7819 IoU=0.5800 Dice=0.7129
+    -> Saved best (val_loss=0.7819) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase2_rgb_seg/lr3e-04_wd1e-04/best.pt
+  [lr3e-04_wd1e-04] Ep 004/35 TRAIN loss=0.6909 IoU=0.6208 Dice=0.7398 | VAL   loss=0.6522 IoU=0.6460 Dice=0.7677
+    -> Saved best (val_loss=0.6522) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase2_rgb_seg/lr3e-04_wd1e-04/best.pt
+  [lr3e-04_wd1e-04] Ep 005/35 TRAIN loss=0.6034 IoU=0.6580 Dice=0.7708 | VAL   loss=0.5654 IoU=0.6798 Dice=0.7893
+    -> Saved best (val_loss=0.5654) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase2_rgb_seg/lr3e-04_wd1e-04/best.pt
+  [lr3e-04_wd1e-04] Ep 006/35 TRAIN loss=0.5431 IoU=0.6864 Dice=0.7944 | VAL   loss=0.5015 IoU=0.7096 Dice=0.8161
+    -> Saved best (val_loss=0.5015) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase2_rgb_seg/lr3e-04_wd1e-04/best.pt
+  [lr3e-04_wd1e-04] Ep 007/35 TRAIN loss=0.4830 IoU=0.7177 Dice=0.8188 | VAL   loss=0.5643 IoU=0.6680 Dice=0.7864
+  [lr3e-04_wd1e-04] Ep 008/35 TRAIN loss=0.4704 IoU=0.7236 Dice=0.8224 | VAL   loss=0.4864 IoU=0.7134 Dice=0.8163
+    -> Saved best (val_loss=0.4864) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase2_rgb_seg/lr3e-04_wd1e-04/best.pt
+  [lr3e-04_wd1e-04] Ep 009/35 TRAIN loss=0.4328 IoU=0.7434 Dice=0.8390 | VAL   loss=0.4726 IoU=0.7223 Dice=0.8196
+    -> Saved best (val_loss=0.4726) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase2_rgb_seg/lr3e-04_wd1e-04/best.pt
+  [lr3e-04_wd1e-04] Ep 010/35 TRAIN loss=0.4076 IoU=0.7574 Dice=0.8491 | VAL   loss=0.4333 IoU=0.7450 Dice=0.8364
+    -> Saved best (val_loss=0.4333) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase2_rgb_seg/lr3e-04_wd1e-04/best.pt
+  [lr3e-04_wd1e-04] Ep 011/35 TRAIN loss=0.3842 IoU=0.7700 Dice=0.8591 | VAL   loss=0.4638 IoU=0.7263 Dice=0.8238
+  [lr3e-04_wd1e-04] Ep 012/35 TRAIN loss=0.3869 IoU=0.7687 Dice=0.8577 | VAL   loss=0.4521 IoU=0.7355 Dice=0.8238
+  [lr3e-04_wd1e-04] Ep 013/35 TRAIN loss=0.3665 IoU=0.7803 Dice=0.8661 | VAL   loss=0.4219 IoU=0.7518 Dice=0.8400
+    -> Saved best (val_loss=0.4219) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase2_rgb_seg/lr3e-04_wd1e-04/best.pt
+  [lr3e-04_wd1e-04] Ep 014/35 TRAIN loss=0.3494 IoU=0.7899 Dice=0.8728 | VAL   loss=0.4813 IoU=0.7151 Dice=0.8213
+  [lr3e-04_wd1e-04] Ep 015/35 TRAIN loss=0.3462 IoU=0.7912 Dice=0.8744 | VAL   loss=0.4219 IoU=0.7486 Dice=0.8401
+  [lr3e-04_wd1e-04] Ep 016/35 TRAIN loss=0.3217 IoU=0.8058 Dice=0.8844 | VAL   loss=0.6320 IoU=0.6382 Dice=0.7380
+  [lr3e-04_wd1e-04] Ep 017/35 TRAIN loss=0.3106 IoU=0.8121 Dice=0.8891 | VAL   loss=0.3998 IoU=0.7647 Dice=0.8470
+    -> Saved best (val_loss=0.3998) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase2_rgb_seg/lr3e-04_wd1e-04/best.pt
+  [lr3e-04_wd1e-04] Ep 018/35 TRAIN loss=0.3104 IoU=0.8127 Dice=0.8887 | VAL   loss=0.3601 IoU=0.7847 Dice=0.8675
+    -> Saved best (val_loss=0.3601) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase2_rgb_seg/lr3e-04_wd1e-04/best.pt
+  [lr3e-04_wd1e-04] Ep 019/35 TRAIN loss=0.2861 IoU=0.8265 Dice=0.8995 | VAL   loss=0.3584 IoU=0.7856 Dice=0.8679
+    -> Saved best (val_loss=0.3584) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase2_rgb_seg/lr3e-04_wd1e-04/best.pt
+  [lr3e-04_wd1e-04] Ep 020/35 TRAIN loss=0.2803 IoU=0.8304 Dice=0.9013 | VAL   loss=0.3671 IoU=0.7825 Dice=0.8631
+  [lr3e-04_wd1e-04] Ep 021/35 TRAIN loss=0.2806 IoU=0.8300 Dice=0.9013 | VAL   loss=0.4138 IoU=0.7586 Dice=0.8389
+  [lr3e-04_wd1e-04] Ep 022/35 TRAIN loss=0.2668 IoU=0.8383 Dice=0.9070 | VAL   loss=0.3646 IoU=0.7851 Dice=0.8625
+  [lr3e-04_wd1e-04] Ep 023/35 TRAIN loss=0.2630 IoU=0.8410 Dice=0.9085 | VAL   loss=0.3498 IoU=0.7914 Dice=0.8711
+    -> Saved best (val_loss=0.3498) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase2_rgb_seg/lr3e-04_wd1e-04/best.pt
+  [lr3e-04_wd1e-04] Ep 024/35 TRAIN loss=0.2560 IoU=0.8453 Dice=0.9113 | VAL   loss=0.3271 IoU=0.8038 Dice=0.8822
+    -> Saved best (val_loss=0.3271) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase2_rgb_seg/lr3e-04_wd1e-04/best.pt
+  [lr3e-04_wd1e-04] Ep 025/35 TRAIN loss=0.2488 IoU=0.8494 Dice=0.9141 | VAL   loss=0.3495 IoU=0.7936 Dice=0.8690
+  [lr3e-04_wd1e-04] Ep 026/35 TRAIN loss=0.2395 IoU=0.8549 Dice=0.9184 | VAL   loss=0.3254 IoU=0.8052 Dice=0.8824
+    -> Saved best (val_loss=0.3254) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase2_rgb_seg/lr3e-04_wd1e-04/best.pt
+  [lr3e-04_wd1e-04] Ep 027/35 TRAIN loss=0.2313 IoU=0.8599 Dice=0.9213 | VAL   loss=0.3228 IoU=0.8068 Dice=0.8834
+    -> Saved best (val_loss=0.3228) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase2_rgb_seg/lr3e-04_wd1e-04/best.pt
+  [lr3e-04_wd1e-04] Ep 028/35 TRAIN loss=0.2300 IoU=0.8609 Dice=0.9216 | VAL   loss=0.3203 IoU=0.8090 Dice=0.8837
+    -> Saved best (val_loss=0.3203) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase2_rgb_seg/lr3e-04_wd1e-04/best.pt
+  [lr3e-04_wd1e-04] Ep 029/35 TRAIN loss=0.2250 IoU=0.8639 Dice=0.9237 | VAL   loss=0.3166 IoU=0.8126 Dice=0.8838
+    -> Saved best (val_loss=0.3166) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase2_rgb_seg/lr3e-04_wd1e-04/best.pt
+  [lr3e-04_wd1e-04] Ep 030/35 TRAIN loss=0.2217 IoU=0.8659 Dice=0.9251 | VAL   loss=0.3293 IoU=0.8057 Dice=0.8779
+  [lr3e-04_wd1e-04] Ep 031/35 TRAIN loss=0.2168 IoU=0.8690 Dice=0.9275 | VAL   loss=0.3280 IoU=0.8066 Dice=0.8783
+  [lr3e-04_wd1e-04] Ep 032/35 TRAIN loss=0.2144 IoU=0.8707 Dice=0.9278 | VAL   loss=0.3160 IoU=0.8126 Dice=0.8847
+    -> Saved best (val_loss=0.3160) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase2_rgb_seg/lr3e-04_wd1e-04/best.pt
+  [lr3e-04_wd1e-04] Ep 033/35 TRAIN loss=0.2114 IoU=0.8723 Dice=0.9292 | VAL   loss=0.3325 IoU=0.8044 Dice=0.8761
+  [lr3e-04_wd1e-04] Ep 034/35 TRAIN loss=0.2115 IoU=0.8725 Dice=0.9290 | VAL   loss=0.3130 IoU=0.8140 Dice=0.8863
+    -> Saved best (val_loss=0.3130) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase2_rgb_seg/lr3e-04_wd1e-04/best.pt
+  [lr3e-04_wd1e-04] Ep 035/35 TRAIN loss=0.2084 IoU=0.8743 Dice=0.9304 | VAL   loss=0.3221 IoU=0.8098 Dice=0.8811
+
+  --- Phase2_RGB_only_segmenter | lr1e-03_wd1e-04 ---
+  [lr1e-03_wd1e-04] Ep 001/35 TRAIN loss=1.4705 IoU=0.3685 Dice=0.5001 | VAL   loss=1.3264 IoU=0.3207 Dice=0.4308
+    -> Saved best (val_loss=1.3264) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase2_rgb_seg/lr1e-03_wd1e-04/best.pt
+  [lr1e-03_wd1e-04] Ep 002/35 TRAIN loss=0.9292 IoU=0.4911 Dice=0.6231 | VAL   loss=1.2948 IoU=0.2926 Dice=0.4200
+    -> Saved best (val_loss=1.2948) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase2_rgb_seg/lr1e-03_wd1e-04/best.pt
+  [lr1e-03_wd1e-04] Ep 003/35 TRAIN loss=0.8324 IoU=0.5270 Dice=0.6546 | VAL   loss=1.2200 IoU=0.3403 Dice=0.4461
+    -> Saved best (val_loss=1.2200) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase2_rgb_seg/lr1e-03_wd1e-04/best.pt
+  [lr1e-03_wd1e-04] Ep 004/35 TRAIN loss=0.7756 IoU=0.5536 Dice=0.6803 | VAL   loss=0.7073 IoU=0.5931 Dice=0.7098
+    -> Saved best (val_loss=0.7073) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase2_rgb_seg/lr1e-03_wd1e-04/best.pt
+  [lr1e-03_wd1e-04] Ep 005/35 TRAIN loss=0.7443 IoU=0.5707 Dice=0.6928 | VAL   loss=0.9595 IoU=0.4512 Dice=0.5943
+  [lr1e-03_wd1e-04] Ep 006/35 TRAIN loss=0.6826 IoU=0.6022 Dice=0.7226 | VAL   loss=0.7433 IoU=0.5729 Dice=0.6905
+  [lr1e-03_wd1e-04] Ep 007/35 TRAIN loss=0.6542 IoU=0.6177 Dice=0.7350 | VAL   loss=0.6415 IoU=0.6208 Dice=0.7460
+    -> Saved best (val_loss=0.6415) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase2_rgb_seg/lr1e-03_wd1e-04/best.pt
+  [lr1e-03_wd1e-04] Ep 008/35 TRAIN loss=0.6501 IoU=0.6196 Dice=0.7374 | VAL   loss=0.6246 IoU=0.6292 Dice=0.7549
+    -> Saved best (val_loss=0.6246) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase2_rgb_seg/lr1e-03_wd1e-04/best.pt
+  [lr1e-03_wd1e-04] Ep 009/35 TRAIN loss=0.6058 IoU=0.6433 Dice=0.7579 | VAL   loss=0.6700 IoU=0.6057 Dice=0.7308
+  [lr1e-03_wd1e-04] Ep 010/35 TRAIN loss=0.5834 IoU=0.6565 Dice=0.7667 | VAL   loss=0.5733 IoU=0.6588 Dice=0.7743
+    -> Saved best (val_loss=0.5733) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase2_rgb_seg/lr1e-03_wd1e-04/best.pt
+  [lr1e-03_wd1e-04] Ep 011/35 TRAIN loss=0.5487 IoU=0.6749 Dice=0.7830 | VAL   loss=0.7347 IoU=0.5733 Dice=0.6977
+  [lr1e-03_wd1e-04] Ep 012/35 TRAIN loss=0.5429 IoU=0.6783 Dice=0.7854 | VAL   loss=0.5521 IoU=0.6705 Dice=0.7841
+    -> Saved best (val_loss=0.5521) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase2_rgb_seg/lr1e-03_wd1e-04/best.pt
+  [lr1e-03_wd1e-04] Ep 013/35 TRAIN loss=0.5216 IoU=0.6897 Dice=0.7959 | VAL   loss=0.5421 IoU=0.6771 Dice=0.7880
+    -> Saved best (val_loss=0.5421) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase2_rgb_seg/lr1e-03_wd1e-04/best.pt
+  [lr1e-03_wd1e-04] Ep 014/35 TRAIN loss=0.4859 IoU=0.7092 Dice=0.8118 | VAL   loss=0.6664 IoU=0.6122 Dice=0.7265
+  [lr1e-03_wd1e-04] Ep 015/35 TRAIN loss=0.4712 IoU=0.7171 Dice=0.8194 | VAL   loss=0.5223 IoU=0.6891 Dice=0.7966
+    -> Saved best (val_loss=0.5223) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase2_rgb_seg/lr1e-03_wd1e-04/best.pt
+  [lr1e-03_wd1e-04] Ep 016/35 TRAIN loss=0.4576 IoU=0.7253 Dice=0.8244 | VAL   loss=0.5514 IoU=0.6734 Dice=0.7825
+  [lr1e-03_wd1e-04] Ep 017/35 TRAIN loss=0.4511 IoU=0.7289 Dice=0.8274 | VAL   loss=0.4754 IoU=0.7148 Dice=0.8171
+    -> Saved best (val_loss=0.4754) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase2_rgb_seg/lr1e-03_wd1e-04/best.pt
+  [lr1e-03_wd1e-04] Ep 018/35 TRAIN loss=0.4279 IoU=0.7419 Dice=0.8383 | VAL   loss=0.5097 IoU=0.6986 Dice=0.7993
+  [lr1e-03_wd1e-04] Ep 019/35 TRAIN loss=0.4080 IoU=0.7535 Dice=0.8461 | VAL   loss=0.4735 IoU=0.7166 Dice=0.8180
+    -> Saved best (val_loss=0.4735) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase2_rgb_seg/lr1e-03_wd1e-04/best.pt
+  [lr1e-03_wd1e-04] Ep 020/35 TRAIN loss=0.4030 IoU=0.7565 Dice=0.8483 | VAL   loss=0.4505 IoU=0.7304 Dice=0.8268
+    -> Saved best (val_loss=0.4505) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase2_rgb_seg/lr1e-03_wd1e-04/best.pt
+  [lr1e-03_wd1e-04] Ep 021/35 TRAIN loss=0.3884 IoU=0.7647 Dice=0.8548 | VAL   loss=0.4737 IoU=0.7165 Dice=0.8182
+  [lr1e-03_wd1e-04] Ep 022/35 TRAIN loss=0.3696 IoU=0.7757 Dice=0.8629 | VAL   loss=0.4574 IoU=0.7275 Dice=0.8226
+  [lr1e-03_wd1e-04] Ep 023/35 TRAIN loss=0.3620 IoU=0.7801 Dice=0.8661 | VAL   loss=0.4339 IoU=0.7417 Dice=0.8326
+    -> Saved best (val_loss=0.4339) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase2_rgb_seg/lr1e-03_wd1e-04/best.pt
+  [lr1e-03_wd1e-04] Ep 024/35 TRAIN loss=0.3395 IoU=0.7926 Dice=0.8765 | VAL   loss=0.4485 IoU=0.7338 Dice=0.8260
+  [lr1e-03_wd1e-04] Ep 025/35 TRAIN loss=0.3465 IoU=0.7892 Dice=0.8730 | VAL   loss=0.4439 IoU=0.7354 Dice=0.8290
+  [lr1e-03_wd1e-04] Ep 026/35 TRAIN loss=0.3284 IoU=0.8002 Dice=0.8802 | VAL   loss=0.3977 IoU=0.7627 Dice=0.8487
+    -> Saved best (val_loss=0.3977) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase2_rgb_seg/lr1e-03_wd1e-04/best.pt
+  [lr1e-03_wd1e-04] Ep 027/35 TRAIN loss=0.3177 IoU=0.8062 Dice=0.8851 | VAL   loss=0.3737 IoU=0.7751 Dice=0.8604
+    -> Saved best (val_loss=0.3737) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase2_rgb_seg/lr1e-03_wd1e-04/best.pt
+  [lr1e-03_wd1e-04] Ep 028/35 TRAIN loss=0.3154 IoU=0.8076 Dice=0.8866 | VAL   loss=0.4043 IoU=0.7577 Dice=0.8475
+  [lr1e-03_wd1e-04] Ep 029/35 TRAIN loss=0.3002 IoU=0.8165 Dice=0.8930 | VAL   loss=0.3962 IoU=0.7628 Dice=0.8500
+  [lr1e-03_wd1e-04] Ep 030/35 TRAIN loss=0.3013 IoU=0.8160 Dice=0.8919 | VAL   loss=0.4056 IoU=0.7600 Dice=0.8436
+  [lr1e-03_wd1e-04] Ep 031/35 TRAIN loss=0.2892 IoU=0.8230 Dice=0.8971 | VAL   loss=0.3986 IoU=0.7636 Dice=0.8472
+  [lr1e-03_wd1e-04] Ep 032/35 TRAIN loss=0.2859 IoU=0.8252 Dice=0.8984 | VAL   loss=0.3998 IoU=0.7628 Dice=0.8468
+  [lr1e-03_wd1e-04] Ep 033/35 TRAIN loss=0.2864 IoU=0.8248 Dice=0.8983 | VAL   loss=0.3994 IoU=0.7629 Dice=0.8473
+  [lr1e-03_wd1e-04] Ep 034/35 TRAIN loss=0.2759 IoU=0.8312 Dice=0.9027 | VAL   loss=0.3840 IoU=0.7715 Dice=0.8542
+  [lr1e-03_wd1e-04] Ep 035/35 TRAIN loss=0.2795 IoU=0.8289 Dice=0.9016 | VAL   loss=0.3923 IoU=0.7683 Dice=0.8489
+
+  --- Phase2_RGB_only_segmenter | lr3e-03_wd1e-04 ---
+  [lr3e-03_wd1e-04] Ep 001/30 TRAIN loss=1.2252 IoU=0.3796 Dice=0.5082 | VAL   loss=1.7093 IoU=0.1154 Dice=0.1724
+    -> Saved best (val_loss=1.7093) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase2_rgb_seg/lr3e-03_wd1e-04/best.pt
+  [lr3e-03_wd1e-04] Ep 002/30 TRAIN loss=0.9216 IoU=0.4760 Dice=0.6082 | VAL   loss=1.3891 IoU=0.2476 Dice=0.3623
+    -> Saved best (val_loss=1.3891) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase2_rgb_seg/lr3e-03_wd1e-04/best.pt
+  [lr3e-03_wd1e-04] Ep 003/30 TRAIN loss=0.8577 IoU=0.5092 Dice=0.6377 | VAL   loss=1.1590 IoU=0.3557 Dice=0.4908
+    -> Saved best (val_loss=1.1590) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase2_rgb_seg/lr3e-03_wd1e-04/best.pt
+  [lr3e-03_wd1e-04] Ep 004/30 TRAIN loss=0.8158 IoU=0.5308 Dice=0.6581 | VAL   loss=0.9106 IoU=0.4723 Dice=0.6206
+    -> Saved best (val_loss=0.9106) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase2_rgb_seg/lr3e-03_wd1e-04/best.pt
+  [lr3e-03_wd1e-04] Ep 005/30 TRAIN loss=0.7613 IoU=0.5584 Dice=0.6848 | VAL   loss=0.8830 IoU=0.5010 Dice=0.6201
+    -> Saved best (val_loss=0.8830) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase2_rgb_seg/lr3e-03_wd1e-04/best.pt
+  [lr3e-03_wd1e-04] Ep 006/30 TRAIN loss=0.7357 IoU=0.5724 Dice=0.6968 | VAL   loss=1.1837 IoU=0.3448 Dice=0.4739
+  [lr3e-03_wd1e-04] Ep 007/30 TRAIN loss=0.7117 IoU=0.5865 Dice=0.7066 | VAL   loss=0.7186 IoU=0.5821 Dice=0.7039
+    -> Saved best (val_loss=0.7186) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase2_rgb_seg/lr3e-03_wd1e-04/best.pt
+  [lr3e-03_wd1e-04] Ep 008/30 TRAIN loss=0.6832 IoU=0.6009 Dice=0.7210 | VAL   loss=0.6668 IoU=0.6123 Dice=0.7261
+    -> Saved best (val_loss=0.6668) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase2_rgb_seg/lr3e-03_wd1e-04/best.pt
+  [lr3e-03_wd1e-04] Ep 009/30 TRAIN loss=0.6484 IoU=0.6194 Dice=0.7373 | VAL   loss=0.7075 IoU=0.5807 Dice=0.7156
+  [lr3e-03_wd1e-04] Ep 010/30 TRAIN loss=0.6406 IoU=0.6233 Dice=0.7411 | VAL   loss=0.6676 IoU=0.6071 Dice=0.7309
+  [lr3e-03_wd1e-04] Ep 011/30 TRAIN loss=0.6143 IoU=0.6388 Dice=0.7521 | VAL   loss=0.5747 IoU=0.6577 Dice=0.7734
+    -> Saved best (val_loss=0.5747) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase2_rgb_seg/lr3e-03_wd1e-04/best.pt
+  [lr3e-03_wd1e-04] Ep 012/30 TRAIN loss=0.6003 IoU=0.6461 Dice=0.7589 | VAL   loss=0.6482 IoU=0.6225 Dice=0.7342
+  [lr3e-03_wd1e-04] Ep 013/30 TRAIN loss=0.5740 IoU=0.6602 Dice=0.7714 | VAL   loss=0.5922 IoU=0.6492 Dice=0.7641
+  [lr3e-03_wd1e-04] Ep 014/30 TRAIN loss=0.5716 IoU=0.6620 Dice=0.7722 | VAL   loss=0.5946 IoU=0.6500 Dice=0.7614
+  [lr3e-03_wd1e-04] Ep 015/30 TRAIN loss=0.5464 IoU=0.6755 Dice=0.7839 | VAL   loss=0.5787 IoU=0.6553 Dice=0.7715
+  [lr3e-03_wd1e-04] Ep 016/30 TRAIN loss=0.5449 IoU=0.6765 Dice=0.7845 | VAL   loss=0.5367 IoU=0.6810 Dice=0.7890
+    -> Saved best (val_loss=0.5367) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase2_rgb_seg/lr3e-03_wd1e-04/best.pt
+  [lr3e-03_wd1e-04] Ep 017/30 TRAIN loss=0.5297 IoU=0.6849 Dice=0.7914 | VAL   loss=0.5488 IoU=0.6744 Dice=0.7830
+  [lr3e-03_wd1e-04] Ep 018/30 TRAIN loss=0.5167 IoU=0.6923 Dice=0.7970 | VAL   loss=0.5527 IoU=0.6707 Dice=0.7826
+  [lr3e-03_wd1e-04] Ep 019/30 TRAIN loss=0.5034 IoU=0.6986 Dice=0.8043 | VAL   loss=0.5562 IoU=0.6669 Dice=0.7836
+  [lr3e-03_wd1e-04] Ep 020/30 TRAIN loss=0.4936 IoU=0.7046 Dice=0.8082 | VAL   loss=0.5311 IoU=0.6824 Dice=0.7928
+    -> Saved best (val_loss=0.5311) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase2_rgb_seg/lr3e-03_wd1e-04/best.pt
+  [lr3e-03_wd1e-04] Ep 021/30 TRAIN loss=0.4727 IoU=0.7163 Dice=0.8176 | VAL   loss=0.5009 IoU=0.7005 Dice=0.8052
+    -> Saved best (val_loss=0.5009) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase2_rgb_seg/lr3e-03_wd1e-04/best.pt
+  [lr3e-03_wd1e-04] Ep 022/30 TRAIN loss=0.4592 IoU=0.7235 Dice=0.8240 | VAL   loss=0.5171 IoU=0.6916 Dice=0.7977
+  [lr3e-03_wd1e-04] Ep 023/30 TRAIN loss=0.4486 IoU=0.7300 Dice=0.8288 | VAL   loss=0.5702 IoU=0.6603 Dice=0.7756
+  [lr3e-03_wd1e-04] Ep 024/30 TRAIN loss=0.4424 IoU=0.7332 Dice=0.8314 | VAL   loss=0.4902 IoU=0.7077 Dice=0.8090
+    -> Saved best (val_loss=0.4902) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase2_rgb_seg/lr3e-03_wd1e-04/best.pt
+  [lr3e-03_wd1e-04] Ep 025/30 TRAIN loss=0.4314 IoU=0.7394 Dice=0.8363 | VAL   loss=0.4914 IoU=0.7067 Dice=0.8085
+  [lr3e-03_wd1e-04] Ep 026/30 TRAIN loss=0.4156 IoU=0.7483 Dice=0.8434 | VAL   loss=0.5038 IoU=0.6993 Dice=0.8038
+  [lr3e-03_wd1e-04] Ep 027/30 TRAIN loss=0.4168 IoU=0.7477 Dice=0.8426 | VAL   loss=0.5109 IoU=0.6953 Dice=0.8007
+  [lr3e-03_wd1e-04] Ep 028/30 TRAIN loss=0.4047 IoU=0.7548 Dice=0.8483 | VAL   loss=0.4814 IoU=0.7133 Dice=0.8126
+    -> Saved best (val_loss=0.4814) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase2_rgb_seg/lr3e-03_wd1e-04/best.pt
+  [lr3e-03_wd1e-04] Ep 029/30 TRAIN loss=0.4019 IoU=0.7563 Dice=0.8491 | VAL   loss=0.4670 IoU=0.7210 Dice=0.8197
+    -> Saved best (val_loss=0.4670) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase2_rgb_seg/lr3e-03_wd1e-04/best.pt
+  [lr3e-03_wd1e-04] Ep 030/30 TRAIN loss=0.3980 IoU=0.7586 Dice=0.8514 | VAL   loss=0.4718 IoU=0.7182 Dice=0.8171
+
+  Phase2_RGB_only_segmenter sweep done. Best val_loss=0.3130  ckpt=/cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase2_rgb_seg/lr3e-04_wd1e-04/best.pt
+
+Best RGB-only segmenter saved to /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/best_rgb_seg.pt
+
+======================================================================
+  PHASE: Phase3_RGBM_classifier
+======================================================================
+  Loaded segmenter from /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase1_rgbd_seg/lr3e-04_wd1e-04/best.pt
+  ClfDataset: 16700 frames, 24 students  [augment=True]
+  ClfDataset: 3850 frames, 6 students  [augment=False]
+
+  --- Phase3_RGBM_classifier | lr1e-04_wd1e-04 ---
+  [lr1e-04_wd1e-04] Ep 001/50 loss=1.9577  train_acc=0.3479  val_acc=0.3987
+    -> Saved best (val_acc=0.3987) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase3_rgbm_clf/lr1e-04_wd1e-04/best.pt
+  [lr1e-04_wd1e-04] Ep 002/50 loss=1.6943  train_acc=0.4625  val_acc=0.3590
+  [lr1e-04_wd1e-04] Ep 003/50 loss=1.5422  train_acc=0.5065  val_acc=0.4034
+    -> Saved best (val_acc=0.4034) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase3_rgbm_clf/lr1e-04_wd1e-04/best.pt
+  [lr1e-04_wd1e-04] Ep 004/50 loss=1.4279  train_acc=0.5494  val_acc=0.4691
+    -> Saved best (val_acc=0.4691) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase3_rgbm_clf/lr1e-04_wd1e-04/best.pt
+  [lr1e-04_wd1e-04] Ep 005/50 loss=1.3425  train_acc=0.5742  val_acc=0.4912
+    -> Saved best (val_acc=0.4912) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase3_rgbm_clf/lr1e-04_wd1e-04/best.pt
+  [lr1e-04_wd1e-04] Ep 006/50 loss=1.2772  train_acc=0.5960  val_acc=0.4242
+  [lr1e-04_wd1e-04] Ep 007/50 loss=1.2223  train_acc=0.6089  val_acc=0.4725
+  [lr1e-04_wd1e-04] Ep 008/50 loss=1.1736  train_acc=0.6271  val_acc=0.4623
+  [lr1e-04_wd1e-04] Ep 009/50 loss=1.1373  train_acc=0.6389  val_acc=0.4351
+  [lr1e-04_wd1e-04] Ep 010/50 loss=1.0920  train_acc=0.6524  val_acc=0.5174
+    -> Saved best (val_acc=0.5174) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase3_rgbm_clf/lr1e-04_wd1e-04/best.pt
+  [lr1e-04_wd1e-04] Ep 011/50 loss=1.0697  train_acc=0.6583  val_acc=0.4784
+  [lr1e-04_wd1e-04] Ep 012/50 loss=1.0423  train_acc=0.6720  val_acc=0.5338
+    -> Saved best (val_acc=0.5338) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase3_rgbm_clf/lr1e-04_wd1e-04/best.pt
+  [lr1e-04_wd1e-04] Ep 013/50 loss=1.0135  train_acc=0.6822  val_acc=0.5553
+    -> Saved best (val_acc=0.5553) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase3_rgbm_clf/lr1e-04_wd1e-04/best.pt
+  [lr1e-04_wd1e-04] Ep 014/50 loss=0.9879  train_acc=0.6896  val_acc=0.4229
+  [lr1e-04_wd1e-04] Ep 015/50 loss=0.9680  train_acc=0.6977  val_acc=0.4969
+  [lr1e-04_wd1e-04] Ep 016/50 loss=0.9393  train_acc=0.7063  val_acc=0.5265
+  [lr1e-04_wd1e-04] Ep 017/50 loss=0.9372  train_acc=0.7026  val_acc=0.5810
+    -> Saved best (val_acc=0.5810) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase3_rgbm_clf/lr1e-04_wd1e-04/best.pt
+  [lr1e-04_wd1e-04] Ep 018/50 loss=0.9040  train_acc=0.7198  val_acc=0.5769
+  [lr1e-04_wd1e-04] Ep 019/50 loss=0.8938  train_acc=0.7234  val_acc=0.5571
+  [lr1e-04_wd1e-04] Ep 020/50 loss=0.8663  train_acc=0.7324  val_acc=0.5945
+    -> Saved best (val_acc=0.5945) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase3_rgbm_clf/lr1e-04_wd1e-04/best.pt
+  [lr1e-04_wd1e-04] Ep 021/50 loss=0.8554  train_acc=0.7415  val_acc=0.6031
+    -> Saved best (val_acc=0.6031) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase3_rgbm_clf/lr1e-04_wd1e-04/best.pt
+  [lr1e-04_wd1e-04] Ep 022/50 loss=0.8450  train_acc=0.7404  val_acc=0.5452
+  [lr1e-04_wd1e-04] Ep 023/50 loss=0.8310  train_acc=0.7490  val_acc=0.6177
+    -> Saved best (val_acc=0.6177) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase3_rgbm_clf/lr1e-04_wd1e-04/best.pt
+  [lr1e-04_wd1e-04] Ep 024/50 loss=0.8135  train_acc=0.7513  val_acc=0.6075
+  [lr1e-04_wd1e-04] Ep 025/50 loss=0.7884  train_acc=0.7606  val_acc=0.4930
+  [lr1e-04_wd1e-04] Ep 026/50 loss=0.7838  train_acc=0.7622  val_acc=0.5771
+  [lr1e-04_wd1e-04] Ep 027/50 loss=0.7795  train_acc=0.7663  val_acc=0.5803
+  [lr1e-04_wd1e-04] Ep 028/50 loss=0.7657  train_acc=0.7687  val_acc=0.5745
+  [lr1e-04_wd1e-04] Ep 029/50 loss=0.7477  train_acc=0.7737  val_acc=0.6130
+  [lr1e-04_wd1e-04] Ep 030/50 loss=0.7450  train_acc=0.7787  val_acc=0.6332
+    -> Saved best (val_acc=0.6332) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase3_rgbm_clf/lr1e-04_wd1e-04/best.pt
+  [lr1e-04_wd1e-04] Ep 031/50 loss=0.7252  train_acc=0.7826  val_acc=0.6317
+  [lr1e-04_wd1e-04] Ep 032/50 loss=0.7140  train_acc=0.7899  val_acc=0.6478
+    -> Saved best (val_acc=0.6478) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase3_rgbm_clf/lr1e-04_wd1e-04/best.pt
+  [lr1e-04_wd1e-04] Ep 033/50 loss=0.7222  train_acc=0.7883  val_acc=0.6431
+  [lr1e-04_wd1e-04] Ep 034/50 loss=0.7013  train_acc=0.7940  val_acc=0.6416
+  [lr1e-04_wd1e-04] Ep 035/50 loss=0.6808  train_acc=0.8019  val_acc=0.6205
+  [lr1e-04_wd1e-04] Ep 036/50 loss=0.6811  train_acc=0.8025  val_acc=0.6491
+    -> Saved best (val_acc=0.6491) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase3_rgbm_clf/lr1e-04_wd1e-04/best.pt
+  [lr1e-04_wd1e-04] Ep 037/50 loss=0.6787  train_acc=0.8046  val_acc=0.6478
+  [lr1e-04_wd1e-04] Ep 038/50 loss=0.6711  train_acc=0.8011  val_acc=0.6374
+  [lr1e-04_wd1e-04] Ep 039/50 loss=0.6676  train_acc=0.8053  val_acc=0.6584
+    -> Saved best (val_acc=0.6584) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase3_rgbm_clf/lr1e-04_wd1e-04/best.pt
+  [lr1e-04_wd1e-04] Ep 040/50 loss=0.6554  train_acc=0.8123  val_acc=0.6665
+    -> Saved best (val_acc=0.6665) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase3_rgbm_clf/lr1e-04_wd1e-04/best.pt
+  [lr1e-04_wd1e-04] Ep 041/50 loss=0.6469  train_acc=0.8157  val_acc=0.6156
+  [lr1e-04_wd1e-04] Ep 042/50 loss=0.6415  train_acc=0.8152  val_acc=0.6504
+  [lr1e-04_wd1e-04] Ep 043/50 loss=0.6441  train_acc=0.8159  val_acc=0.6719
+    -> Saved best (val_acc=0.6719) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase3_rgbm_clf/lr1e-04_wd1e-04/best.pt
+  [lr1e-04_wd1e-04] Ep 044/50 loss=0.6433  train_acc=0.8158  val_acc=0.6675
+  [lr1e-04_wd1e-04] Ep 045/50 loss=0.6435  train_acc=0.8187  val_acc=0.6782
+    -> Saved best (val_acc=0.6782) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase3_rgbm_clf/lr1e-04_wd1e-04/best.pt
+  [lr1e-04_wd1e-04] Ep 046/50 loss=0.6340  train_acc=0.8252  val_acc=0.6540
+  [lr1e-04_wd1e-04] Ep 047/50 loss=0.6276  train_acc=0.8196  val_acc=0.6668
+  [lr1e-04_wd1e-04] Ep 048/50 loss=0.6189  train_acc=0.8260  val_acc=0.6665
+  [lr1e-04_wd1e-04] Ep 049/50 loss=0.6166  train_acc=0.8260  val_acc=0.6706
+  [lr1e-04_wd1e-04] Ep 050/50 loss=0.6213  train_acc=0.8251  val_acc=0.6691
+
+  --- Phase3_RGBM_classifier | lr3e-04_wd1e-04 ---
+  [lr3e-04_wd1e-04] Ep 001/50 loss=1.8838  train_acc=0.3650  val_acc=0.3312
+    -> Saved best (val_acc=0.3312) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase3_rgbm_clf/lr3e-04_wd1e-04/best.pt
+  [lr3e-04_wd1e-04] Ep 002/50 loss=1.5801  train_acc=0.4900  val_acc=0.4452
+    -> Saved best (val_acc=0.4452) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase3_rgbm_clf/lr3e-04_wd1e-04/best.pt
+  [lr3e-04_wd1e-04] Ep 003/50 loss=1.4142  train_acc=0.5407  val_acc=0.3252
+  [lr3e-04_wd1e-04] Ep 004/50 loss=1.2991  train_acc=0.5749  val_acc=0.4465
+    -> Saved best (val_acc=0.4465) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase3_rgbm_clf/lr3e-04_wd1e-04/best.pt
+  [lr3e-04_wd1e-04] Ep 005/50 loss=1.2172  train_acc=0.6078  val_acc=0.4405
+  [lr3e-04_wd1e-04] Ep 006/50 loss=1.1538  train_acc=0.6234  val_acc=0.4473
+    -> Saved best (val_acc=0.4473) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase3_rgbm_clf/lr3e-04_wd1e-04/best.pt
+  [lr3e-04_wd1e-04] Ep 007/50 loss=1.0909  train_acc=0.6460  val_acc=0.4904
+    -> Saved best (val_acc=0.4904) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase3_rgbm_clf/lr3e-04_wd1e-04/best.pt
+  [lr3e-04_wd1e-04] Ep 008/50 loss=1.0394  train_acc=0.6695  val_acc=0.5657
+    -> Saved best (val_acc=0.5657) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase3_rgbm_clf/lr3e-04_wd1e-04/best.pt
+  [lr3e-04_wd1e-04] Ep 009/50 loss=1.0056  train_acc=0.6803  val_acc=0.5156
+  [lr3e-04_wd1e-04] Ep 010/50 loss=0.9597  train_acc=0.6934  val_acc=0.5603
+  [lr3e-04_wd1e-04] Ep 011/50 loss=0.9397  train_acc=0.6998  val_acc=0.4769
+  [lr3e-04_wd1e-04] Ep 012/50 loss=0.9001  train_acc=0.7135  val_acc=0.3566
+  [lr3e-04_wd1e-04] Ep 013/50 loss=0.8610  train_acc=0.7268  val_acc=0.6086
+    -> Saved best (val_acc=0.6086) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase3_rgbm_clf/lr3e-04_wd1e-04/best.pt
+  [lr3e-04_wd1e-04] Ep 014/50 loss=0.8570  train_acc=0.7309  val_acc=0.5356
+  [lr3e-04_wd1e-04] Ep 015/50 loss=0.8228  train_acc=0.7424  val_acc=0.5468
+  [lr3e-04_wd1e-04] Ep 016/50 loss=0.8028  train_acc=0.7507  val_acc=0.5971
+  [lr3e-04_wd1e-04] Ep 017/50 loss=0.7828  train_acc=0.7571  val_acc=0.5948
+  [lr3e-04_wd1e-04] Ep 018/50 loss=0.7582  train_acc=0.7667  val_acc=0.6192
+    -> Saved best (val_acc=0.6192) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase3_rgbm_clf/lr3e-04_wd1e-04/best.pt
+  [lr3e-04_wd1e-04] Ep 019/50 loss=0.7422  train_acc=0.7704  val_acc=0.5852
+  [lr3e-04_wd1e-04] Ep 020/50 loss=0.7316  train_acc=0.7779  val_acc=0.5992
+  [lr3e-04_wd1e-04] Ep 021/50 loss=0.7096  train_acc=0.7859  val_acc=0.5660
+  [lr3e-04_wd1e-04] Ep 022/50 loss=0.6936  train_acc=0.7883  val_acc=0.6504
+    -> Saved best (val_acc=0.6504) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase3_rgbm_clf/lr3e-04_wd1e-04/best.pt
+  [lr3e-04_wd1e-04] Ep 023/50 loss=0.6725  train_acc=0.7928  val_acc=0.6291
+  [lr3e-04_wd1e-04] Ep 024/50 loss=0.6630  train_acc=0.7979  val_acc=0.6179
+  [lr3e-04_wd1e-04] Ep 025/50 loss=0.6551  train_acc=0.8069  val_acc=0.6587
+    -> Saved best (val_acc=0.6587) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase3_rgbm_clf/lr3e-04_wd1e-04/best.pt
+  [lr3e-04_wd1e-04] Ep 026/50 loss=0.6326  train_acc=0.8095  val_acc=0.5852
+  [lr3e-04_wd1e-04] Ep 027/50 loss=0.6186  train_acc=0.8173  val_acc=0.6696
+    -> Saved best (val_acc=0.6696) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase3_rgbm_clf/lr3e-04_wd1e-04/best.pt
+  [lr3e-04_wd1e-04] Ep 028/50 loss=0.6027  train_acc=0.8240  val_acc=0.6603
+  [lr3e-04_wd1e-04] Ep 029/50 loss=0.5932  train_acc=0.8219  val_acc=0.6545
+  [lr3e-04_wd1e-04] Ep 030/50 loss=0.5708  train_acc=0.8287  val_acc=0.5883
+  [lr3e-04_wd1e-04] Ep 031/50 loss=0.5714  train_acc=0.8287  val_acc=0.6738
+    -> Saved best (val_acc=0.6738) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase3_rgbm_clf/lr3e-04_wd1e-04/best.pt
+  [lr3e-04_wd1e-04] Ep 032/50 loss=0.5627  train_acc=0.8330  val_acc=0.6821
+    -> Saved best (val_acc=0.6821) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase3_rgbm_clf/lr3e-04_wd1e-04/best.pt
+  [lr3e-04_wd1e-04] Ep 033/50 loss=0.5549  train_acc=0.8386  val_acc=0.6629
+  [lr3e-04_wd1e-04] Ep 034/50 loss=0.5413  train_acc=0.8392  val_acc=0.6501
+  [lr3e-04_wd1e-04] Ep 035/50 loss=0.5169  train_acc=0.8522  val_acc=0.6878
+    -> Saved best (val_acc=0.6878) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase3_rgbm_clf/lr3e-04_wd1e-04/best.pt
+  [lr3e-04_wd1e-04] Ep 036/50 loss=0.5188  train_acc=0.8480  val_acc=0.6948
+    -> Saved best (val_acc=0.6948) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase3_rgbm_clf/lr3e-04_wd1e-04/best.pt
+  [lr3e-04_wd1e-04] Ep 037/50 loss=0.5165  train_acc=0.8505  val_acc=0.6888
+  [lr3e-04_wd1e-04] Ep 038/50 loss=0.4866  train_acc=0.8620  val_acc=0.7055
+    -> Saved best (val_acc=0.7055) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase3_rgbm_clf/lr3e-04_wd1e-04/best.pt
+  [lr3e-04_wd1e-04] Ep 039/50 loss=0.4829  train_acc=0.8607  val_acc=0.7096
+    -> Saved best (val_acc=0.7096) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase3_rgbm_clf/lr3e-04_wd1e-04/best.pt
+  [lr3e-04_wd1e-04] Ep 040/50 loss=0.4853  train_acc=0.8604  val_acc=0.7036
+  [lr3e-04_wd1e-04] Ep 041/50 loss=0.4821  train_acc=0.8615  val_acc=0.6826
+  [lr3e-04_wd1e-04] Ep 042/50 loss=0.4672  train_acc=0.8686  val_acc=0.7023
+  [lr3e-04_wd1e-04] Ep 043/50 loss=0.4708  train_acc=0.8674  val_acc=0.6792
+  [lr3e-04_wd1e-04] Ep 044/50 loss=0.4595  train_acc=0.8712  val_acc=0.7086
+  [lr3e-04_wd1e-04] Ep 045/50 loss=0.4618  train_acc=0.8685  val_acc=0.7018
+  [lr3e-04_wd1e-04] Ep 046/50 loss=0.4622  train_acc=0.8725  val_acc=0.7016
+  [lr3e-04_wd1e-04] Ep 047/50 loss=0.4565  train_acc=0.8716  val_acc=0.6953
+  [lr3e-04_wd1e-04] Ep 048/50 loss=0.4520  train_acc=0.8734  val_acc=0.7182
+    -> Saved best (val_acc=0.7182) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase3_rgbm_clf/lr3e-04_wd1e-04/best.pt
+  [lr3e-04_wd1e-04] Ep 049/50 loss=0.4418  train_acc=0.8769  val_acc=0.6987
+  [lr3e-04_wd1e-04] Ep 050/50 loss=0.4417  train_acc=0.8793  val_acc=0.7086
+
+  --- Phase3_RGBM_classifier | lr1e-03_wd5e-05 ---
+  [lr1e-03_wd5e-05] Ep 001/40 loss=1.8685  train_acc=0.3430  val_acc=0.3847
+    -> Saved best (val_acc=0.3847) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase3_rgbm_clf/lr1e-03_wd5e-05/best.pt
+  [lr1e-03_wd5e-05] Ep 002/40 loss=1.5694  train_acc=0.4657  val_acc=0.3371
+  [lr1e-03_wd5e-05] Ep 003/40 loss=1.4063  train_acc=0.5296  val_acc=0.4125
+    -> Saved best (val_acc=0.4125) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase3_rgbm_clf/lr1e-03_wd5e-05/best.pt
+  [lr1e-03_wd5e-05] Ep 004/40 loss=1.2664  train_acc=0.5817  val_acc=0.5008
+    -> Saved best (val_acc=0.5008) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase3_rgbm_clf/lr1e-03_wd5e-05/best.pt
+  [lr1e-03_wd5e-05] Ep 005/40 loss=1.1900  train_acc=0.6101  val_acc=0.4582
+  [lr1e-03_wd5e-05] Ep 006/40 loss=1.0984  train_acc=0.6397  val_acc=0.4592
+  [lr1e-03_wd5e-05] Ep 007/40 loss=1.0492  train_acc=0.6530  val_acc=0.5114
+    -> Saved best (val_acc=0.5114) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase3_rgbm_clf/lr1e-03_wd5e-05/best.pt
+  [lr1e-03_wd5e-05] Ep 008/40 loss=0.9888  train_acc=0.6796  val_acc=0.4587
+  [lr1e-03_wd5e-05] Ep 009/40 loss=0.9346  train_acc=0.6996  val_acc=0.5504
+    -> Saved best (val_acc=0.5504) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase3_rgbm_clf/lr1e-03_wd5e-05/best.pt
+  [lr1e-03_wd5e-05] Ep 010/40 loss=0.8878  train_acc=0.7130  val_acc=0.5491
+  [lr1e-03_wd5e-05] Ep 011/40 loss=0.8601  train_acc=0.7225  val_acc=0.5652
+    -> Saved best (val_acc=0.5652) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase3_rgbm_clf/lr1e-03_wd5e-05/best.pt
+  [lr1e-03_wd5e-05] Ep 012/40 loss=0.8330  train_acc=0.7383  val_acc=0.6268
+    -> Saved best (val_acc=0.6268) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase3_rgbm_clf/lr1e-03_wd5e-05/best.pt
+  [lr1e-03_wd5e-05] Ep 013/40 loss=0.7754  train_acc=0.7559  val_acc=0.5956
+  [lr1e-03_wd5e-05] Ep 014/40 loss=0.7532  train_acc=0.7594  val_acc=0.5821
+  [lr1e-03_wd5e-05] Ep 015/40 loss=0.7331  train_acc=0.7726  val_acc=0.6184
+  [lr1e-03_wd5e-05] Ep 016/40 loss=0.7067  train_acc=0.7845  val_acc=0.6577
+    -> Saved best (val_acc=0.6577) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase3_rgbm_clf/lr1e-03_wd5e-05/best.pt
+  [lr1e-03_wd5e-05] Ep 017/40 loss=0.6676  train_acc=0.7953  val_acc=0.6751
+    -> Saved best (val_acc=0.6751) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase3_rgbm_clf/lr1e-03_wd5e-05/best.pt
+  [lr1e-03_wd5e-05] Ep 018/40 loss=0.6534  train_acc=0.8007  val_acc=0.6590
+  [lr1e-03_wd5e-05] Ep 019/40 loss=0.6229  train_acc=0.8112  val_acc=0.5699
+  [lr1e-03_wd5e-05] Ep 020/40 loss=0.5935  train_acc=0.8224  val_acc=0.6982
+    -> Saved best (val_acc=0.6982) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase3_rgbm_clf/lr1e-03_wd5e-05/best.pt
+  [lr1e-03_wd5e-05] Ep 021/40 loss=0.5790  train_acc=0.8211  val_acc=0.6538
+  [lr1e-03_wd5e-05] Ep 022/40 loss=0.5547  train_acc=0.8296  val_acc=0.7052
+    -> Saved best (val_acc=0.7052) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase3_rgbm_clf/lr1e-03_wd5e-05/best.pt
+  [lr1e-03_wd5e-05] Ep 023/40 loss=0.5395  train_acc=0.8366  val_acc=0.5979
+  [lr1e-03_wd5e-05] Ep 024/40 loss=0.5230  train_acc=0.8425  val_acc=0.6777
+  [lr1e-03_wd5e-05] Ep 025/40 loss=0.5031  train_acc=0.8509  val_acc=0.7018
+  [lr1e-03_wd5e-05] Ep 026/40 loss=0.4998  train_acc=0.8515  val_acc=0.7195
+    -> Saved best (val_acc=0.7195) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase3_rgbm_clf/lr1e-03_wd5e-05/best.pt
+  [lr1e-03_wd5e-05] Ep 027/40 loss=0.4703  train_acc=0.8580  val_acc=0.7029
+  [lr1e-03_wd5e-05] Ep 028/40 loss=0.4620  train_acc=0.8638  val_acc=0.7239
+    -> Saved best (val_acc=0.7239) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase3_rgbm_clf/lr1e-03_wd5e-05/best.pt
+  [lr1e-03_wd5e-05] Ep 029/40 loss=0.4501  train_acc=0.8708  val_acc=0.7138
+  [lr1e-03_wd5e-05] Ep 030/40 loss=0.4293  train_acc=0.8721  val_acc=0.7223
+  [lr1e-03_wd5e-05] Ep 031/40 loss=0.4222  train_acc=0.8770  val_acc=0.7436
+    -> Saved best (val_acc=0.7436) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase3_rgbm_clf/lr1e-03_wd5e-05/best.pt
+  [lr1e-03_wd5e-05] Ep 032/40 loss=0.4192  train_acc=0.8813  val_acc=0.7644
+    -> Saved best (val_acc=0.7644) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase3_rgbm_clf/lr1e-03_wd5e-05/best.pt
+  [lr1e-03_wd5e-05] Ep 033/40 loss=0.4024  train_acc=0.8855  val_acc=0.7462
+  [lr1e-03_wd5e-05] Ep 034/40 loss=0.3996  train_acc=0.8849  val_acc=0.7374
+  [lr1e-03_wd5e-05] Ep 035/40 loss=0.3840  train_acc=0.8919  val_acc=0.7551
+  [lr1e-03_wd5e-05] Ep 036/40 loss=0.3773  train_acc=0.8920  val_acc=0.7561
+  [lr1e-03_wd5e-05] Ep 037/40 loss=0.3720  train_acc=0.8982  val_acc=0.7535
+  [lr1e-03_wd5e-05] Ep 038/40 loss=0.3612  train_acc=0.8984  val_acc=0.7556
+  [lr1e-03_wd5e-05] Ep 039/40 loss=0.3531  train_acc=0.9019  val_acc=0.7553
+  [lr1e-03_wd5e-05] Ep 040/40 loss=0.3519  train_acc=0.9005  val_acc=0.7382
+
+  Phase3_RGBM_classifier sweep done. Best val_acc=0.7644  ckpt=/cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase3_rgbm_clf/lr1e-03_wd5e-05/best.pt
+
+Best RGBM classifier saved to /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/best_rgbm_clf.pt
+
+======================================================================
+  PHASE: Phase4_M_only_classifier
+======================================================================
+  Loaded segmenter from /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase2_rgb_seg/lr3e-04_wd1e-04/best.pt
+  ClfDataset: 16700 frames, 24 students  [augment=True]
+  ClfDataset: 3850 frames, 6 students  [augment=False]
+
+  --- Phase4_M_only_classifier | lr1e-04_wd1e-04 ---
+  [lr1e-04_wd1e-04] Ep 001/50 loss=1.9074  train_acc=0.3916  val_acc=0.4717
+    -> Saved best (val_acc=0.4717) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase4_m_clf/lr1e-04_wd1e-04/best.pt
+  [lr1e-04_wd1e-04] Ep 002/50 loss=1.7054  train_acc=0.4730  val_acc=0.4561
+  [lr1e-04_wd1e-04] Ep 003/50 loss=1.5887  train_acc=0.5133  val_acc=0.5288
+    -> Saved best (val_acc=0.5288) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase4_m_clf/lr1e-04_wd1e-04/best.pt
+  [lr1e-04_wd1e-04] Ep 004/50 loss=1.5053  train_acc=0.5392  val_acc=0.4291
+  [lr1e-04_wd1e-04] Ep 005/50 loss=1.4466  train_acc=0.5604  val_acc=0.4800
+  [lr1e-04_wd1e-04] Ep 006/50 loss=1.3887  train_acc=0.5847  val_acc=0.5462
+    -> Saved best (val_acc=0.5462) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase4_m_clf/lr1e-04_wd1e-04/best.pt
+  [lr1e-04_wd1e-04] Ep 007/50 loss=1.3428  train_acc=0.5960  val_acc=0.3195
+  [lr1e-04_wd1e-04] Ep 008/50 loss=1.3061  train_acc=0.6105  val_acc=0.4761
+  [lr1e-04_wd1e-04] Ep 009/50 loss=1.2823  train_acc=0.6186  val_acc=0.5657
+    -> Saved best (val_acc=0.5657) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase4_m_clf/lr1e-04_wd1e-04/best.pt
+  [lr1e-04_wd1e-04] Ep 010/50 loss=1.2491  train_acc=0.6349  val_acc=0.5517
+  [lr1e-04_wd1e-04] Ep 011/50 loss=1.2281  train_acc=0.6393  val_acc=0.5857
+    -> Saved best (val_acc=0.5857) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase4_m_clf/lr1e-04_wd1e-04/best.pt
+  [lr1e-04_wd1e-04] Ep 012/50 loss=1.1999  train_acc=0.6514  val_acc=0.4208
+  [lr1e-04_wd1e-04] Ep 013/50 loss=1.1894  train_acc=0.6519  val_acc=0.4914
+  [lr1e-04_wd1e-04] Ep 014/50 loss=1.1565  train_acc=0.6675  val_acc=0.5273
+  [lr1e-04_wd1e-04] Ep 015/50 loss=1.1474  train_acc=0.6697  val_acc=0.4686
+  [lr1e-04_wd1e-04] Ep 016/50 loss=1.1318  train_acc=0.6750  val_acc=0.5948
+    -> Saved best (val_acc=0.5948) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase4_m_clf/lr1e-04_wd1e-04/best.pt
+  [lr1e-04_wd1e-04] Ep 017/50 loss=1.1277  train_acc=0.6736  val_acc=0.4538
+  [lr1e-04_wd1e-04] Ep 018/50 loss=1.0992  train_acc=0.6871  val_acc=0.5249
+  [lr1e-04_wd1e-04] Ep 019/50 loss=1.0885  train_acc=0.6864  val_acc=0.5122
+  [lr1e-04_wd1e-04] Ep 020/50 loss=1.0810  train_acc=0.6889  val_acc=0.5800
+  [lr1e-04_wd1e-04] Ep 021/50 loss=1.0757  train_acc=0.6922  val_acc=0.5800
+  [lr1e-04_wd1e-04] Ep 022/50 loss=1.0829  train_acc=0.6970  val_acc=0.5984
+    -> Saved best (val_acc=0.5984) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase4_m_clf/lr1e-04_wd1e-04/best.pt
+  [lr1e-04_wd1e-04] Ep 023/50 loss=1.0578  train_acc=0.6979  val_acc=0.6496
+    -> Saved best (val_acc=0.6496) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase4_m_clf/lr1e-04_wd1e-04/best.pt
+  [lr1e-04_wd1e-04] Ep 024/50 loss=1.0439  train_acc=0.7058  val_acc=0.5296
+  [lr1e-04_wd1e-04] Ep 025/50 loss=1.0330  train_acc=0.7114  val_acc=0.6016
+  [lr1e-04_wd1e-04] Ep 026/50 loss=1.0152  train_acc=0.7133  val_acc=0.6330
+  [lr1e-04_wd1e-04] Ep 027/50 loss=1.0223  train_acc=0.7134  val_acc=0.6527
+    -> Saved best (val_acc=0.6527) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase4_m_clf/lr1e-04_wd1e-04/best.pt
+  [lr1e-04_wd1e-04] Ep 028/50 loss=1.0140  train_acc=0.7159  val_acc=0.6338
+  [lr1e-04_wd1e-04] Ep 029/50 loss=1.0020  train_acc=0.7201  val_acc=0.5699
+  [lr1e-04_wd1e-04] Ep 030/50 loss=0.9884  train_acc=0.7253  val_acc=0.6143
+  [lr1e-04_wd1e-04] Ep 031/50 loss=0.9912  train_acc=0.7223  val_acc=0.5174
+  [lr1e-04_wd1e-04] Ep 032/50 loss=0.9943  train_acc=0.7218  val_acc=0.6247
+  [lr1e-04_wd1e-04] Ep 033/50 loss=0.9777  train_acc=0.7243  val_acc=0.5229
+  [lr1e-04_wd1e-04] Ep 034/50 loss=0.9780  train_acc=0.7261  val_acc=0.6709
+    -> Saved best (val_acc=0.6709) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase4_m_clf/lr1e-04_wd1e-04/best.pt
+  [lr1e-04_wd1e-04] Ep 035/50 loss=0.9819  train_acc=0.7259  val_acc=0.6582
+  [lr1e-04_wd1e-04] Ep 036/50 loss=0.9767  train_acc=0.7298  val_acc=0.6416
+  [lr1e-04_wd1e-04] Ep 037/50 loss=0.9617  train_acc=0.7311  val_acc=0.6566
+  [lr1e-04_wd1e-04] Ep 038/50 loss=0.9681  train_acc=0.7337  val_acc=0.6522
+  [lr1e-04_wd1e-04] Ep 039/50 loss=0.9515  train_acc=0.7354  val_acc=0.6787
+    -> Saved best (val_acc=0.6787) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase4_m_clf/lr1e-04_wd1e-04/best.pt
+  [lr1e-04_wd1e-04] Ep 040/50 loss=0.9576  train_acc=0.7352  val_acc=0.6631
+  [lr1e-04_wd1e-04] Ep 041/50 loss=0.9395  train_acc=0.7411  val_acc=0.6777
+  [lr1e-04_wd1e-04] Ep 042/50 loss=0.9462  train_acc=0.7405  val_acc=0.6740
+  [lr1e-04_wd1e-04] Ep 043/50 loss=0.9420  train_acc=0.7433  val_acc=0.6782
+  [lr1e-04_wd1e-04] Ep 044/50 loss=0.9402  train_acc=0.7448  val_acc=0.6810
+    -> Saved best (val_acc=0.6810) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase4_m_clf/lr1e-04_wd1e-04/best.pt
+  [lr1e-04_wd1e-04] Ep 045/50 loss=0.9377  train_acc=0.7426  val_acc=0.6940
+    -> Saved best (val_acc=0.6940) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase4_m_clf/lr1e-04_wd1e-04/best.pt
+  [lr1e-04_wd1e-04] Ep 046/50 loss=0.9381  train_acc=0.7444  val_acc=0.6844
+  [lr1e-04_wd1e-04] Ep 047/50 loss=0.9486  train_acc=0.7387  val_acc=0.6852
+  [lr1e-04_wd1e-04] Ep 048/50 loss=0.9299  train_acc=0.7456  val_acc=0.6896
+  [lr1e-04_wd1e-04] Ep 049/50 loss=0.9308  train_acc=0.7514  val_acc=0.6875
+  [lr1e-04_wd1e-04] Ep 050/50 loss=0.9411  train_acc=0.7441  val_acc=0.6831
+
+  --- Phase4_M_only_classifier | lr3e-04_wd1e-04 ---
+  [lr3e-04_wd1e-04] Ep 001/50 loss=1.8212  train_acc=0.4123  val_acc=0.3208
+    -> Saved best (val_acc=0.3208) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase4_m_clf/lr3e-04_wd1e-04/best.pt
+  [lr3e-04_wd1e-04] Ep 002/50 loss=1.5712  train_acc=0.4987  val_acc=0.5317
+    -> Saved best (val_acc=0.5317) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase4_m_clf/lr3e-04_wd1e-04/best.pt
+  [lr3e-04_wd1e-04] Ep 003/50 loss=1.4631  train_acc=0.5369  val_acc=0.5322
+    -> Saved best (val_acc=0.5322) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase4_m_clf/lr3e-04_wd1e-04/best.pt
+  [lr3e-04_wd1e-04] Ep 004/50 loss=1.3678  train_acc=0.5752  val_acc=0.4688
+  [lr3e-04_wd1e-04] Ep 005/50 loss=1.3018  train_acc=0.5977  val_acc=0.5813
+    -> Saved best (val_acc=0.5813) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase4_m_clf/lr3e-04_wd1e-04/best.pt
+  [lr3e-04_wd1e-04] Ep 006/50 loss=1.2466  train_acc=0.6227  val_acc=0.5325
+  [lr3e-04_wd1e-04] Ep 007/50 loss=1.2038  train_acc=0.6385  val_acc=0.5166
+  [lr3e-04_wd1e-04] Ep 008/50 loss=1.1630  train_acc=0.6575  val_acc=0.3868
+  [lr3e-04_wd1e-04] Ep 009/50 loss=1.1412  train_acc=0.6631  val_acc=0.6179
+    -> Saved best (val_acc=0.6179) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase4_m_clf/lr3e-04_wd1e-04/best.pt
+  [lr3e-04_wd1e-04] Ep 010/50 loss=1.1161  train_acc=0.6767  val_acc=0.5792
+  [lr3e-04_wd1e-04] Ep 011/50 loss=1.0894  train_acc=0.6836  val_acc=0.4013
+  [lr3e-04_wd1e-04] Ep 012/50 loss=1.0621  train_acc=0.6877  val_acc=0.5410
+  [lr3e-04_wd1e-04] Ep 013/50 loss=1.0603  train_acc=0.6911  val_acc=0.5070
+  [lr3e-04_wd1e-04] Ep 014/50 loss=1.0366  train_acc=0.6983  val_acc=0.4519
+  [lr3e-04_wd1e-04] Ep 015/50 loss=1.0182  train_acc=0.7133  val_acc=0.5987
+  [lr3e-04_wd1e-04] Ep 016/50 loss=1.0043  train_acc=0.7122  val_acc=0.5810
+  [lr3e-04_wd1e-04] Ep 017/50 loss=1.0022  train_acc=0.7163  val_acc=0.6190
+    -> Saved best (val_acc=0.6190) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase4_m_clf/lr3e-04_wd1e-04/best.pt
+  [lr3e-04_wd1e-04] Ep 018/50 loss=0.9766  train_acc=0.7240  val_acc=0.5842
+  [lr3e-04_wd1e-04] Ep 019/50 loss=0.9826  train_acc=0.7205  val_acc=0.6327
+    -> Saved best (val_acc=0.6327) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase4_m_clf/lr3e-04_wd1e-04/best.pt
+  [lr3e-04_wd1e-04] Ep 020/50 loss=0.9753  train_acc=0.7227  val_acc=0.6374
+    -> Saved best (val_acc=0.6374) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase4_m_clf/lr3e-04_wd1e-04/best.pt
+  [lr3e-04_wd1e-04] Ep 021/50 loss=0.9623  train_acc=0.7304  val_acc=0.6668
+    -> Saved best (val_acc=0.6668) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase4_m_clf/lr3e-04_wd1e-04/best.pt
+  [lr3e-04_wd1e-04] Ep 022/50 loss=0.9479  train_acc=0.7338  val_acc=0.6888
+    -> Saved best (val_acc=0.6888) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase4_m_clf/lr3e-04_wd1e-04/best.pt
+  [lr3e-04_wd1e-04] Ep 023/50 loss=0.9409  train_acc=0.7367  val_acc=0.4823
+  [lr3e-04_wd1e-04] Ep 024/50 loss=0.9377  train_acc=0.7372  val_acc=0.6387
+  [lr3e-04_wd1e-04] Ep 025/50 loss=0.9163  train_acc=0.7455  val_acc=0.6647
+  [lr3e-04_wd1e-04] Ep 026/50 loss=0.9078  train_acc=0.7512  val_acc=0.6857
+  [lr3e-04_wd1e-04] Ep 027/50 loss=0.9025  train_acc=0.7493  val_acc=0.6395
+  [lr3e-04_wd1e-04] Ep 028/50 loss=0.8949  train_acc=0.7533  val_acc=0.6795
+  [lr3e-04_wd1e-04] Ep 029/50 loss=0.8788  train_acc=0.7575  val_acc=0.6787
+  [lr3e-04_wd1e-04] Ep 030/50 loss=0.8824  train_acc=0.7570  val_acc=0.6735
+  [lr3e-04_wd1e-04] Ep 031/50 loss=0.8730  train_acc=0.7574  val_acc=0.7101
+    -> Saved best (val_acc=0.7101) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase4_m_clf/lr3e-04_wd1e-04/best.pt
+  [lr3e-04_wd1e-04] Ep 032/50 loss=0.8632  train_acc=0.7613  val_acc=0.6917
+  [lr3e-04_wd1e-04] Ep 033/50 loss=0.8493  train_acc=0.7681  val_acc=0.6800
+  [lr3e-04_wd1e-04] Ep 034/50 loss=0.8524  train_acc=0.7640  val_acc=0.6961
+  [lr3e-04_wd1e-04] Ep 035/50 loss=0.8537  train_acc=0.7697  val_acc=0.6904
+  [lr3e-04_wd1e-04] Ep 036/50 loss=0.8447  train_acc=0.7692  val_acc=0.6540
+  [lr3e-04_wd1e-04] Ep 037/50 loss=0.8378  train_acc=0.7731  val_acc=0.7088
+  [lr3e-04_wd1e-04] Ep 038/50 loss=0.8359  train_acc=0.7720  val_acc=0.6701
+  [lr3e-04_wd1e-04] Ep 039/50 loss=0.8316  train_acc=0.7728  val_acc=0.7148
+    -> Saved best (val_acc=0.7148) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase4_m_clf/lr3e-04_wd1e-04/best.pt
+  [lr3e-04_wd1e-04] Ep 040/50 loss=0.8316  train_acc=0.7729  val_acc=0.7021
+  [lr3e-04_wd1e-04] Ep 041/50 loss=0.8233  train_acc=0.7786  val_acc=0.7125
+  [lr3e-04_wd1e-04] Ep 042/50 loss=0.8333  train_acc=0.7690  val_acc=0.7083
+  [lr3e-04_wd1e-04] Ep 043/50 loss=0.8148  train_acc=0.7784  val_acc=0.7174
+    -> Saved best (val_acc=0.7174) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase4_m_clf/lr3e-04_wd1e-04/best.pt
+  [lr3e-04_wd1e-04] Ep 044/50 loss=0.8221  train_acc=0.7777  val_acc=0.7073
+  [lr3e-04_wd1e-04] Ep 045/50 loss=0.8100  train_acc=0.7844  val_acc=0.7114
+  [lr3e-04_wd1e-04] Ep 046/50 loss=0.8197  train_acc=0.7801  val_acc=0.7205
+    -> Saved best (val_acc=0.7205) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase4_m_clf/lr3e-04_wd1e-04/best.pt
+  [lr3e-04_wd1e-04] Ep 047/50 loss=0.8084  train_acc=0.7790  val_acc=0.7208
+    -> Saved best (val_acc=0.7208) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase4_m_clf/lr3e-04_wd1e-04/best.pt
+  [lr3e-04_wd1e-04] Ep 048/50 loss=0.8103  train_acc=0.7831  val_acc=0.7156
+  [lr3e-04_wd1e-04] Ep 049/50 loss=0.8037  train_acc=0.7829  val_acc=0.7210
+    -> Saved best (val_acc=0.7210) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase4_m_clf/lr3e-04_wd1e-04/best.pt
+  [lr3e-04_wd1e-04] Ep 050/50 loss=0.7989  train_acc=0.7884  val_acc=0.7221
+    -> Saved best (val_acc=0.7221) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase4_m_clf/lr3e-04_wd1e-04/best.pt
+
+  --- Phase4_M_only_classifier | lr1e-03_wd5e-05 ---
+  [lr1e-03_wd5e-05] Ep 001/40 loss=1.7832  train_acc=0.3859  val_acc=0.3805
+    -> Saved best (val_acc=0.3805) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase4_m_clf/lr1e-03_wd5e-05/best.pt
+  [lr1e-03_wd5e-05] Ep 002/40 loss=1.5662  train_acc=0.4766  val_acc=0.4912
+    -> Saved best (val_acc=0.4912) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase4_m_clf/lr1e-03_wd5e-05/best.pt
+  [lr1e-03_wd5e-05] Ep 003/40 loss=1.4295  train_acc=0.5354  val_acc=0.4579
+  [lr1e-03_wd5e-05] Ep 004/40 loss=1.3383  train_acc=0.5720  val_acc=0.5112
+    -> Saved best (val_acc=0.5112) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase4_m_clf/lr1e-03_wd5e-05/best.pt
+  [lr1e-03_wd5e-05] Ep 005/40 loss=1.2531  train_acc=0.6099  val_acc=0.5922
+    -> Saved best (val_acc=0.5922) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase4_m_clf/lr1e-03_wd5e-05/best.pt
+  [lr1e-03_wd5e-05] Ep 006/40 loss=1.2030  train_acc=0.6257  val_acc=0.4888
+  [lr1e-03_wd5e-05] Ep 007/40 loss=1.1616  train_acc=0.6459  val_acc=0.6112
+    -> Saved best (val_acc=0.6112) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase4_m_clf/lr1e-03_wd5e-05/best.pt
+  [lr1e-03_wd5e-05] Ep 008/40 loss=1.1129  train_acc=0.6620  val_acc=0.5429
+  [lr1e-03_wd5e-05] Ep 009/40 loss=1.0806  train_acc=0.6749  val_acc=0.5504
+  [lr1e-03_wd5e-05] Ep 010/40 loss=1.0634  train_acc=0.6889  val_acc=0.5530
+  [lr1e-03_wd5e-05] Ep 011/40 loss=1.0217  train_acc=0.6982  val_acc=0.6312
+    -> Saved best (val_acc=0.6312) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase4_m_clf/lr1e-03_wd5e-05/best.pt
+  [lr1e-03_wd5e-05] Ep 012/40 loss=1.0198  train_acc=0.7003  val_acc=0.6182
+  [lr1e-03_wd5e-05] Ep 013/40 loss=0.9998  train_acc=0.7089  val_acc=0.5099
+  [lr1e-03_wd5e-05] Ep 014/40 loss=0.9710  train_acc=0.7182  val_acc=0.6319
+    -> Saved best (val_acc=0.6319) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase4_m_clf/lr1e-03_wd5e-05/best.pt
+  [lr1e-03_wd5e-05] Ep 015/40 loss=0.9635  train_acc=0.7260  val_acc=0.6395
+    -> Saved best (val_acc=0.6395) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase4_m_clf/lr1e-03_wd5e-05/best.pt
+  [lr1e-03_wd5e-05] Ep 016/40 loss=0.9347  train_acc=0.7268  val_acc=0.6605
+    -> Saved best (val_acc=0.6605) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase4_m_clf/lr1e-03_wd5e-05/best.pt
+  [lr1e-03_wd5e-05] Ep 017/40 loss=0.9143  train_acc=0.7402  val_acc=0.6257
+  [lr1e-03_wd5e-05] Ep 018/40 loss=0.9118  train_acc=0.7396  val_acc=0.6836
+    -> Saved best (val_acc=0.6836) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase4_m_clf/lr1e-03_wd5e-05/best.pt
+  [lr1e-03_wd5e-05] Ep 019/40 loss=0.8959  train_acc=0.7486  val_acc=0.6852
+    -> Saved best (val_acc=0.6852) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase4_m_clf/lr1e-03_wd5e-05/best.pt
+  [lr1e-03_wd5e-05] Ep 020/40 loss=0.8927  train_acc=0.7452  val_acc=0.6873
+    -> Saved best (val_acc=0.6873) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase4_m_clf/lr1e-03_wd5e-05/best.pt
+  [lr1e-03_wd5e-05] Ep 021/40 loss=0.8695  train_acc=0.7573  val_acc=0.7003
+    -> Saved best (val_acc=0.7003) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase4_m_clf/lr1e-03_wd5e-05/best.pt
+  [lr1e-03_wd5e-05] Ep 022/40 loss=0.8554  train_acc=0.7565  val_acc=0.7000
+  [lr1e-03_wd5e-05] Ep 023/40 loss=0.8473  train_acc=0.7628  val_acc=0.6940
+  [lr1e-03_wd5e-05] Ep 024/40 loss=0.8407  train_acc=0.7669  val_acc=0.6590
+  [lr1e-03_wd5e-05] Ep 025/40 loss=0.8316  train_acc=0.7696  val_acc=0.7184
+    -> Saved best (val_acc=0.7184) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase4_m_clf/lr1e-03_wd5e-05/best.pt
+  [lr1e-03_wd5e-05] Ep 026/40 loss=0.8025  train_acc=0.7798  val_acc=0.7130
+  [lr1e-03_wd5e-05] Ep 027/40 loss=0.8107  train_acc=0.7802  val_acc=0.6574
+  [lr1e-03_wd5e-05] Ep 028/40 loss=0.7987  train_acc=0.7813  val_acc=0.7281
+    -> Saved best (val_acc=0.7281) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase4_m_clf/lr1e-03_wd5e-05/best.pt
+  [lr1e-03_wd5e-05] Ep 029/40 loss=0.7772  train_acc=0.7865  val_acc=0.7205
+  [lr1e-03_wd5e-05] Ep 030/40 loss=0.7805  train_acc=0.7872  val_acc=0.7239
+  [lr1e-03_wd5e-05] Ep 031/40 loss=0.7719  train_acc=0.7895  val_acc=0.7125
+  [lr1e-03_wd5e-05] Ep 032/40 loss=0.7667  train_acc=0.7914  val_acc=0.7138
+  [lr1e-03_wd5e-05] Ep 033/40 loss=0.7624  train_acc=0.7915  val_acc=0.7356
+    -> Saved best (val_acc=0.7356) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase4_m_clf/lr1e-03_wd5e-05/best.pt
+  [lr1e-03_wd5e-05] Ep 034/40 loss=0.7560  train_acc=0.7939  val_acc=0.7322
+  [lr1e-03_wd5e-05] Ep 035/40 loss=0.7635  train_acc=0.7948  val_acc=0.7184
+  [lr1e-03_wd5e-05] Ep 036/40 loss=0.7473  train_acc=0.7990  val_acc=0.7291
+  [lr1e-03_wd5e-05] Ep 037/40 loss=0.7400  train_acc=0.8034  val_acc=0.7387
+    -> Saved best (val_acc=0.7387) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase4_m_clf/lr1e-03_wd5e-05/best.pt
+  [lr1e-03_wd5e-05] Ep 038/40 loss=0.7514  train_acc=0.7992  val_acc=0.7403
+    -> Saved best (val_acc=0.7403) → /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase4_m_clf/lr1e-03_wd5e-05/best.pt
+  [lr1e-03_wd5e-05] Ep 039/40 loss=0.7325  train_acc=0.8054  val_acc=0.7314
+  [lr1e-03_wd5e-05] Ep 040/40 loss=0.7398  train_acc=0.8028  val_acc=0.7351
+
+  Phase4_M_only_classifier sweep done. Best val_acc=0.7403  ckpt=/cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/phase4_m_clf/lr1e-03_wd5e-05/best.pt
+
+Best mask-only classifier saved to /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/best_m_clf.pt
+
+Sweep summary written to /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight/sweep_summary.csv
+
+======================================================================
+  OVERNIGHT TRAINING COMPLETE
+======================================================================
+  All outputs under: /cs/student/project_msc/2025/rai/houghton/object_detection/project_25077339_houghton/weights/overnight
+  Final weights:
+    ✓  best_rgbd_seg.pt
+    ✓  best_rgb_seg.pt
+    ✓  best_rgbm_clf.pt
+    ✓  best_m_clf.pt
